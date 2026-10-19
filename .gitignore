@@ -1,0 +1,11 @@
+.openai/
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.tar.gz
+*.zip
+stormlight-reading-backup*.json

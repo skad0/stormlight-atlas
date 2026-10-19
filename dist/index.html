@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="A private reader's atlas of Roshar, with book-aware spoilers, linked entities, chronology and chapter references.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Stormlight Atlas — A reader’s companion</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#/home"><span class="brand-icon" aria-hidden="true">✧</span><span>STORMLIGHT<span class="brand-sub">THE READER’S ATLAS</span></span></a>
+    <div class="side-label">YOUR FIELD GUIDE</div>
+    <nav aria-label="Main navigation">
+      <a href="#/home" data-nav="home"><span aria-hidden="true">◈</span> Overview</a>
+      <a href="#/explore" data-nav="explore"><span aria-hidden="true">⌕</span> Encyclopedia</a>
+      <a href="#/timeline" data-nav="timeline"><span aria-hidden="true">↟</span> Chronology</a>
+      <a href="#/chapters" data-nav="chapters"><span aria-hidden="true">▤</span> Books & chapters</a>
+      <a href="#/map" data-nav="map"><span aria-hidden="true">◇</span> Places & routes</a>
+      <a href="#/connections" data-nav="connections"><span aria-hidden="true">⤧</span> Connections</a>
+      <a href="#/status" data-nav="status"><span aria-hidden="true">◷</span> Status ledger</a>
+      <a href="#/saved" data-nav="saved"><span aria-hidden="true">☆</span> Reading desk</a>
+      <a href="#/sources" data-nav="sources"><span aria-hidden="true">≡</span> Sources & coverage</a>
+    </nav>
+    <div class="side-foot"><span class="live-dot"></span> Independent reading companion<p>Journey before destination.</p><small>Unofficial fan reference · Edition 3</small></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <a class="mobile-brand" href="#/home">✧ STORMLIGHT</a>
+      <div class="searchbox"><span aria-hidden="true">⌕</span><input id="search" aria-label="Search within spoiler boundary" type="search" placeholder="Search people, places, powers…" autocomplete="off"><kbd>/</kbd></div>
+      <label class="spoiler"><span class="spoiler-label">I HAVE FINISHED</span><select id="boundary" aria-label="Completed book spoiler boundary"></select></label>
+    </header>
+    <nav class="mobile-nav" aria-label="Mobile navigation"><select id="mobile-view" aria-label="Choose view"><option value="home">Overview</option><option value="explore">Encyclopedia</option><option value="timeline">Chronology</option><option value="chapters">Books & chapters</option><option value="map">Places & routes</option><option value="connections">Connections</option><option value="status">Status ledger</option><option value="saved">Reading desk</option><option value="sources">Sources & coverage</option></select></nav>
+    <main id="main" tabindex="-1"><div class="loading">Opening the archive…</div></main>
+    <footer>STORMLIGHT ATLAS <span>Book-aware reference · Local reading progress · No book text reproduced</span></footer>
+  </div>
+  <div id="veil" class="veil" hidden></div>
+  <aside id="detail" class="detail" role="dialog" aria-modal="true" aria-label="Reference details" hidden></aside>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

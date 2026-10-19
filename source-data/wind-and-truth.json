@@ -1,0 +1,3916 @@
+{
+  "meta": {
+    "title": "Wind and Truth and Lost Tales research supplement",
+    "checkedAt": "2026-10-16",
+    "coverage": "Selected major arcs and outcomes; not an exhaustive chapter-by-chapter retelling.",
+    "method": "Original brief paraphrases; exact numbered locators when verified in chapter-specific sources; uncertain claims labeled.",
+    "copyright": "No novel text or long source quotations included.",
+    "spoilerWarning": "WAT entries reveal the end of Wind and Truth. Lost Tales reveal Words of Radiance outcomes."
+  },
+  "bookScope": {
+    "publishedCore": [
+      "The Way of Kings",
+      "Words of Radiance",
+      "Oathbringer",
+      "Rhythm of War",
+      "Wind and Truth"
+    ],
+    "publishedRosharNovellas": [
+      "Edgedancer",
+      "Dawnshard"
+    ],
+    "publishedRosharShorts": [
+      "Elsecaller",
+      "King Lopen the First of Alethkar"
+    ],
+    "plannedMainNovels": 10,
+    "unpublished": [
+      {
+        "title": "Horneater",
+        "status": "Planned; not verified published by the cutoff",
+        "note": "State of Sanderson 2025 says likely in the next few years. Older tentative December 2026 dates are not a release confirmation."
+      },
+      {
+        "title": "Stormlight Archive books 6–10",
+        "status": "Planned; no published story to index"
+      }
+    ],
+    "sources": [
+      "official-series",
+      "official-ten",
+      "official-2025",
+      "lost-tales-official"
+    ],
+    "supplementaryDistinction": "The Sunlit Man and Warbreaker are connected Cosmere novels, not additional numbered Stormlight volumes; The Way of Kings Prime is an alternate noncanonical draft."
+  },
+  "chronologyRules": [
+    "The Spiritual Realm has no reliable shared clock; remembered scenes and visions must be tagged separately from their present-day discovery.",
+    "Gavinor’s subjective years cannot be plotted as elapsed Rosharan calendar years.",
+    "After Retribution, Rosharan time and offworld time diverge; avoid applying a single exact conversion to all scenes.",
+    "Book/day or chapter sequence is not evidence for exact simultaneity across fronts.",
+    "Ancient round-number dates are in-book relative estimates, not independently calibrated calendar dates."
+  ],
+  "chapterIndex": [
+    {
+      "book": "WAT",
+      "number": 1,
+      "label": "Chapter 1",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 2,
+      "label": "Chapter 2",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 3,
+      "label": "Chapter 3",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 4,
+      "label": "Chapter 4",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 5,
+      "label": "Chapter 5",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 6,
+      "label": "Chapter 6",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 7,
+      "label": "Chapter 7",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 8,
+      "label": "Chapter 8",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 9,
+      "label": "Chapter 9",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 10,
+      "label": "Chapter 10",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 11,
+      "label": "Chapter 11",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 12,
+      "label": "Chapter 12",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 13,
+      "label": "Chapter 13",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 14,
+      "label": "Chapter 14",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 15,
+      "label": "Chapter 15",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 16,
+      "label": "Chapter 16",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 17,
+      "label": "Chapter 17",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 18,
+      "label": "Chapter 18",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 19,
+      "label": "Chapter 19",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 20,
+      "label": "Chapter 20",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 21,
+      "label": "Chapter 21",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 22,
+      "label": "Chapter 22",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 23,
+      "label": "Chapter 23",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 24,
+      "label": "Chapter 24",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 25,
+      "label": "Chapter 25",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 26,
+      "label": "Chapter 26",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 27,
+      "label": "Chapter 27",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 28,
+      "label": "Chapter 28",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 29,
+      "label": "Chapter 29",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 30,
+      "label": "Chapter 30",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 31,
+      "label": "Chapter 31",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 32,
+      "label": "Chapter 32",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 33,
+      "label": "Chapter 33",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 34,
+      "label": "Chapter 34",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 35,
+      "label": "Chapter 35",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 36,
+      "label": "Chapter 36",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 37,
+      "label": "Chapter 37",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 38,
+      "label": "Chapter 38",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 39,
+      "label": "Chapter 39",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 40,
+      "label": "Chapter 40",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 41,
+      "label": "Chapter 41",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 42,
+      "label": "Chapter 42",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 43,
+      "label": "Chapter 43",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 44,
+      "label": "Chapter 44",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 45,
+      "label": "Chapter 45",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 46,
+      "label": "Chapter 46",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 47,
+      "label": "Chapter 47",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 48,
+      "label": "Chapter 48",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 49,
+      "label": "Chapter 49",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 50,
+      "label": "Chapter 50",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 51,
+      "label": "Chapter 51",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 52,
+      "label": "Chapter 52",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 53,
+      "label": "Chapter 53",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 54,
+      "label": "Chapter 54",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 55,
+      "label": "Chapter 55",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 56,
+      "label": "Chapter 56",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 57,
+      "label": "Chapter 57",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 58,
+      "label": "Chapter 58",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 59,
+      "label": "Chapter 59",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 60,
+      "label": "Chapter 60",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 61,
+      "label": "Chapter 61",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 62,
+      "label": "Chapter 62",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 63,
+      "label": "Chapter 63",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 64,
+      "label": "Chapter 64",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 65,
+      "label": "Chapter 65",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 66,
+      "label": "Chapter 66",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 67,
+      "label": "Chapter 67",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 68,
+      "label": "Chapter 68",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 69,
+      "label": "Chapter 69",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 70,
+      "label": "Chapter 70",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 71,
+      "label": "Chapter 71",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 72,
+      "label": "Chapter 72",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 73,
+      "label": "Chapter 73",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 74,
+      "label": "Chapter 74",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 75,
+      "label": "Chapter 75",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 76,
+      "label": "Chapter 76",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 77,
+      "label": "Chapter 77",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 78,
+      "label": "Chapter 78",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 79,
+      "label": "Chapter 79",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 80,
+      "label": "Chapter 80",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 81,
+      "label": "Chapter 81",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 82,
+      "label": "Chapter 82",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 83,
+      "label": "Chapter 83",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 84,
+      "label": "Chapter 84",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 85,
+      "label": "Chapter 85",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 86,
+      "label": "Chapter 86",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 87,
+      "label": "Chapter 87",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 88,
+      "label": "Chapter 88",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 89,
+      "label": "Chapter 89",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 90,
+      "label": "Chapter 90",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 91,
+      "label": "Chapter 91",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 92,
+      "label": "Chapter 92",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 93,
+      "label": "Chapter 93",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 94,
+      "label": "Chapter 94",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 95,
+      "label": "Chapter 95",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 96,
+      "label": "Chapter 96",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 97,
+      "label": "Chapter 97",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 98,
+      "label": "Chapter 98",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 99,
+      "label": "Chapter 99",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 100,
+      "label": "Chapter 100",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 101,
+      "label": "Chapter 101",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 102,
+      "label": "Chapter 102",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 103,
+      "label": "Chapter 103",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 104,
+      "label": "Chapter 104",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 105,
+      "label": "Chapter 105",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 106,
+      "label": "Chapter 106",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 107,
+      "label": "Chapter 107",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 108,
+      "label": "Chapter 108",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 109,
+      "label": "Chapter 109",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 110,
+      "label": "Chapter 110",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 111,
+      "label": "Chapter 111",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 112,
+      "label": "Chapter 112",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 113,
+      "label": "Chapter 113",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 114,
+      "label": "Chapter 114",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 115,
+      "label": "Chapter 115",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 116,
+      "label": "Chapter 116",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 117,
+      "label": "Chapter 117",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 118,
+      "label": "Chapter 118",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 119,
+      "label": "Chapter 119",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 120,
+      "label": "Chapter 120",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 121,
+      "label": "Chapter 121",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 122,
+      "label": "Chapter 122",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 123,
+      "label": "Chapter 123",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 124,
+      "label": "Chapter 124",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 125,
+      "label": "Chapter 125",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 126,
+      "label": "Chapter 126",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 127,
+      "label": "Chapter 127",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 128,
+      "label": "Chapter 128",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 129,
+      "label": "Chapter 129",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 130,
+      "label": "Chapter 130",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 131,
+      "label": "Chapter 131",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 132,
+      "label": "Chapter 132",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 133,
+      "label": "Chapter 133",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 134,
+      "label": "Chapter 134",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 135,
+      "label": "Chapter 135",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 136,
+      "label": "Chapter 136",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 137,
+      "label": "Chapter 137",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 138,
+      "label": "Chapter 138",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 139,
+      "label": "Chapter 139",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 140,
+      "label": "Chapter 140",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 141,
+      "label": "Chapter 141",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 142,
+      "label": "Chapter 142",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 143,
+      "label": "Chapter 143",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 144,
+      "label": "Chapter 144",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 145,
+      "label": "Chapter 145",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 146,
+      "label": "Chapter 146",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    },
+    {
+      "book": "WAT",
+      "number": 147,
+      "label": "Chapter 147",
+      "titleVerified": false,
+      "sourceIds": [
+        "wat-index"
+      ]
+    }
+  ],
+  "specialSections": [
+    "Prologue",
+    "Interludes 1–18",
+    "Epilogue",
+    "Postlude"
+  ],
+  "events": [
+    {
+      "id": "wat-gavilar",
+      "title": "Gavilar pursues immortality",
+      "book": "WAT",
+      "chapter": "Prologue",
+      "summary": "Gavilar’s private ambitions reshape the interpretation of the assassination-night negotiations.",
+      "characters": [
+        "gavilar",
+        "stormfather",
+        "szeth"
+      ],
+      "locations": [
+        "kholinar"
+      ],
+      "sources": [
+        "wat-prologue"
+      ],
+      "timeLabel": "Seven and a half years earlier",
+      "chronologyPrecision": "chapter",
+      "timeKind": "flashback",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-mishram-prison",
+      "title": "Mishram’s hidden prison",
+      "book": "WAT",
+      "chapter": 3,
+      "summary": "Kalak identifies the Spiritual Realm as the hiding place of Mishram’s gemstone prison.",
+      "characters": [
+        "shallan",
+        "kalak",
+        "pattern"
+      ],
+      "locations": [
+        "lasting-integrity"
+      ],
+      "sources": [
+        "wat-3-4"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-flute",
+      "title": "A song for the journey",
+      "book": "WAT",
+      "chapter": 4,
+      "summary": "Wit teaches Kaladin the flute and urges him to listen to the Wind.",
+      "characters": [
+        "wit",
+        "kaladin",
+        "syl"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-3-4"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-farewell",
+      "title": "Kaladin leaves his command behind",
+      "book": "WAT",
+      "chapter": 12,
+      "summary": "Kaladin prepares to leave Bridge Four and travel west toward Shinovar.",
+      "characters": [
+        "kaladin",
+        "syl"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-12-13"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-strategies",
+      "title": "Separate fronts, shared deadline",
+      "book": "WAT",
+      "chapter": 21,
+      "summary": "Sigzil organizes Narak’s defense while Dalinar considers seeking Honor’s power through the Spiritual Realm.",
+      "characters": [
+        "sigzil",
+        "dalinar",
+        "navani",
+        "jasnah"
+      ],
+      "locations": [
+        "urithiru",
+        "narak"
+      ],
+      "sources": [
+        "wat-21-22"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-shinovar",
+      "title": "Kaladin and Szeth enter Shinovar",
+      "book": "WAT",
+      "chapter": 22,
+      "summary": "Kaladin offers help with Szeth’s trauma; Szeth prioritizes cleansing his homeland.",
+      "characters": [
+        "kaladin",
+        "szeth",
+        "syl"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-21-22"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-spiritual-pursuit",
+      "title": "The Spiritual Realm pursuit",
+      "book": "WAT",
+      "chapter": 31,
+      "summary": "Shallan brings Renarin and Rlain into Shadesmar to pursue the Ghostbloods.",
+      "characters": [
+        "shallan",
+        "renarin",
+        "rlain",
+        "pattern",
+        "testament"
+      ],
+      "locations": [
+        "urithiru",
+        "shadesmar"
+      ],
+      "sources": [
+        "wat-31-32"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-monastery",
+      "title": "Syl helps Szeth solve an illusion",
+      "book": "WAT",
+      "chapter": 71,
+      "summary": "Syl assists Szeth at the Lightweaver monastery; he defeats Moss and retrieves its Honorblade.",
+      "characters": [
+        "szeth",
+        "syl",
+        "nale"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-69-71"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-empty-ships",
+      "title": "Jasnah sees the naval deception",
+      "book": "WAT",
+      "chapter": 71,
+      "summary": "Jasnah deduces that the apparent invasion fleet may contain no enemy troops.",
+      "characters": [
+        "jasnah",
+        "ivory"
+      ],
+      "locations": [
+        "thaylen-city"
+      ],
+      "sources": [
+        "wat-69-71"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-taln-defense",
+      "title": "Taln defends the wounded",
+      "book": "WAT",
+      "chapter": "84–85",
+      "summary": "Taln fights attackers at Azimir’s hospital; Adolin later finds his body beside wounded Ash.",
+      "characters": [
+        "taln",
+        "shalash",
+        "adolin"
+      ],
+      "locations": [
+        "azimir"
+      ],
+      "sources": [
+        "wat-84-85"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-adolin-leg",
+      "title": "Adolin survives the thunderclast",
+      "book": "WAT",
+      "chapter": 85,
+      "summary": "Adolin kills a thunderclast but loses his right leg below the knee.",
+      "characters": [
+        "adolin"
+      ],
+      "locations": [
+        "azimir"
+      ],
+      "sources": [
+        "wat-84-85"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-tentative-relationship",
+      "title": "Renarin and Rlain reach for each other",
+      "book": "WAT",
+      "chapter": 84,
+      "summary": "Renarin and Rlain discuss attraction and compatibility, then hold hands.",
+      "characters": [
+        "renarin",
+        "rlain"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-84-85"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-narak-retreat",
+      "title": "Narak’s defenses contract",
+      "book": "WAT",
+      "chapter": 88,
+      "summary": "Defeating Yelig-nar’s attack costs the defenders ground while their Stormlight supply dwindles.",
+      "characters": [
+        "sigzil",
+        "vienta"
+      ],
+      "locations": [
+        "narak"
+      ],
+      "sources": [
+        "wat-88-90"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-elid",
+      "title": "The Honorbearer is Szeth’s sister",
+      "book": "WAT",
+      "chapter": 90,
+      "summary": "Elid reveals that the pilgrimage is preparing Szeth to replace Jezrien as Herald.",
+      "characters": [
+        "szeth",
+        "elid",
+        "nale"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-88-90"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-well",
+      "title": "Venli finds Odium’s well",
+      "book": "WAT",
+      "chapter": 90,
+      "summary": "Venli and the Five discover the hidden source of power beneath Narak.",
+      "characters": [
+        "venli",
+        "thude",
+        "timbre"
+      ],
+      "locations": [
+        "narak"
+      ],
+      "sources": [
+        "wat-88-90"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-chanarach",
+      "title": "Shallan identifies her mother",
+      "book": "WAT",
+      "chapter": 97,
+      "summary": "Shallan recognizes her mother as Chanarach and connects her death with the Return.",
+      "characters": [
+        "shallan",
+        "chanarach"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-95-98"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-forgiveness",
+      "title": "Shallan forgives Chanarach",
+      "book": "WAT",
+      "chapter": 99,
+      "summary": "Shallan encounters Chanarach herself within a vision and chooses to forgive her.",
+      "characters": [
+        "shallan",
+        "chanarach",
+        "testament"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-99"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-dawnshards-meet",
+      "title": "Rysn recognizes Hoid’s Dawnshard",
+      "book": "WAT",
+      "chapter": "Interlude 15",
+      "summary": "Rysn sees through Hoid’s disguise; their Dawnshards interact dangerously, prompting her to seek concealment.",
+      "characters": [
+        "rysn",
+        "wit",
+        "nikli"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-99"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-tanavast-history",
+      "title": "Tanavast’s account begins",
+      "book": "WAT",
+      "chapter": 100,
+      "summary": "Tanavast recounts choosing Roshar with Cultivation before Rayse’s arrival.",
+      "characters": [
+        "honor",
+        "cultivation",
+        "odium"
+      ],
+      "locations": [
+        "roshar"
+      ],
+      "sources": [
+        "wat-100-104"
+      ],
+      "timeLabel": "About ten thousand years earlier",
+      "chronologyPrecision": "chapter",
+      "timeKind": "historical vision",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-ashyn-history",
+      "title": "Humanity’s flight from Ashyn",
+      "book": "WAT",
+      "chapter": 107,
+      "summary": "Tanavast recalls Ashyn’s devastation and the refugees’ arrival on Roshar with Rayse following.",
+      "characters": [
+        "honor",
+        "odium",
+        "jez",
+        "ishar",
+        "nale"
+      ],
+      "locations": [
+        "ashyn",
+        "roshar"
+      ],
+      "sources": [
+        "wat-105-108"
+      ],
+      "timeLabel": "Ancient history; book-relative date",
+      "chronologyPrecision": "chapter",
+      "timeKind": "historical vision",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-choice",
+      "title": "Szeth claims the right to choose",
+      "book": "WAT",
+      "chapter": 108,
+      "summary": "Szeth refuses blind obedience; Kaladin accepts Szeth’s request to stand as his champion against Nale.",
+      "characters": [
+        "szeth",
+        "kaladin",
+        "nale",
+        "syl"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-105-108"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-nale-music",
+      "title": "Music reaches Nale",
+      "book": "WAT",
+      "chapter": 110,
+      "summary": "Kaladin, Syl, and the Wind use music and the Wandersail story to reach Nale’s buried compassion.",
+      "characters": [
+        "kaladin",
+        "syl",
+        "nale"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-109-112"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-binding",
+      "title": "The original Oathpact",
+      "book": "WAT",
+      "chapter": 115,
+      "summary": "Honor grants regulated Surgebinding to Ishar and his allies, establishing the Heralds’ Oathpact.",
+      "characters": [
+        "honor",
+        "ishar"
+      ],
+      "locations": [
+        "roshar"
+      ],
+      "sources": [
+        "wat-113-116"
+      ],
+      "timeLabel": "About seven thousand years earlier",
+      "chronologyPrecision": "chapter",
+      "timeKind": "historical vision",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-thaylenah",
+      "title": "Fen changes allegiance",
+      "book": "WAT",
+      "chapter": 116,
+      "summary": "Taravangian undermines Jasnah’s moral authority; Fen accepts a protective agreement with Odium.",
+      "characters": [
+        "jasnah",
+        "fen",
+        "taravangian"
+      ],
+      "locations": [
+        "thaylen-city"
+      ],
+      "sources": [
+        "wat-113-116"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-truthless",
+      "title": "Szeth’s exile is explained",
+      "book": "WAT",
+      "chapter": 117,
+      "summary": "The Voice orders Szeth named Truthless; he is exiled carrying the Windrunner Honorblade.",
+      "characters": [
+        "szeth",
+        "nale",
+        "neturo"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-117-120"
+      ],
+      "timeLabel": "Nine years earlier; Szeth flashback",
+      "chronologyPrecision": "chapter",
+      "timeKind": "flashback",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-staged-retreat",
+      "title": "Venli and Sigzil stage a rout",
+      "book": "WAT",
+      "chapter": 118,
+      "summary": "Their coordinated assault conceals the human withdrawal and transfers treaty papers to Venli.",
+      "characters": [
+        "venli",
+        "sigzil"
+      ],
+      "locations": [
+        "shattered-plains",
+        "narak"
+      ],
+      "sources": [
+        "wat-117-120"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-sigzil-bond",
+      "title": "Sigzil breaks his bond to save Vienta",
+      "book": "WAT",
+      "chapter": 118,
+      "summary": "Facing Moash’s anti-spren threat, Sigzil renounces his oaths; Lopen enables the escape.",
+      "characters": [
+        "sigzil",
+        "vienta",
+        "moash",
+        "lopen"
+      ],
+      "locations": [
+        "narak"
+      ],
+      "sources": [
+        "wat-117-120"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-kiss",
+      "title": "Renarin chooses Rlain",
+      "book": "WAT",
+      "chapter": 121,
+      "summary": "Renarin rejects a safely isolated future and kisses Rlain, choosing their relationship despite expected prejudice.",
+      "characters": [
+        "renarin",
+        "rlain",
+        "glys"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-121-123"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-human-fused",
+      "title": "Ishar’s human Fused are explained",
+      "book": "WAT",
+      "chapter": 128,
+      "summary": "Nale describes Ishar’s experiments with Odium’s power and the Honorbearers’ repeated incarnation.",
+      "characters": [
+        "nale",
+        "ishar",
+        "szeth",
+        "kaladin"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-128-129"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-gavinor",
+      "title": "Odium’s champion is Gavinor",
+      "book": "WAT",
+      "chapter": 131,
+      "summary": "Taravangian presents Gavinor, aged and conditioned in the Spiritual Realm, as Dalinar’s opponent.",
+      "characters": [
+        "gavinor",
+        "dalinar",
+        "taravangian"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-130-132"
+      ],
+      "timeLabel": "Contest day; subjective decades for Gavinor",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-plate",
+      "title": "Adolin’s Plate chooses him",
+      "book": "WAT",
+      "chapter": 133,
+      "summary": "The stolen armor returns to Adolin and adapts to replace his missing lower leg.",
+      "characters": [
+        "adolin"
+      ],
+      "locations": [
+        "azimir"
+      ],
+      "sources": [
+        "wat-133-136"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-szeth-fifth",
+      "title": "Szeth reaches the Fifth Ideal",
+      "book": "WAT",
+      "chapter": 133,
+      "summary": "Szeth rejects reliance on masters and swears the Skybreakers’ Fifth Ideal.",
+      "characters": [
+        "szeth",
+        "ishar"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-133-136"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-iyatil",
+      "title": "Iyatil dies",
+      "book": "WAT",
+      "chapter": 134,
+      "summary": "Shallan identifies the false Formless and kills Iyatil with anti-Stormlight.",
+      "characters": [
+        "shallan",
+        "iyatil",
+        "mraize"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-133-136"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-azir-saved",
+      "title": "The Unoathed save Azir",
+      "book": "WAT",
+      "chapter": "135–136",
+      "summary": "Maya brings deadeye allies; ten Shardbearers hold the palace until the territorial deadline.",
+      "characters": [
+        "adolin",
+        "maya",
+        "notum",
+        "gawx",
+        "noura"
+      ],
+      "locations": [
+        "azimir"
+      ],
+      "sources": [
+        "wat-133-136"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-mraize",
+      "title": "Shallan defeats Mraize",
+      "book": "WAT",
+      "chapter": 137,
+      "summary": "Shallan’s Lightweaving misdirection makes Mraize’s own healing trigger the anti-Stormlight weapon.",
+      "characters": [
+        "shallan",
+        "pattern",
+        "mraize"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-137-140"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-listener-treaty",
+      "title": "The listener treaty changes ownership",
+      "book": "WAT",
+      "chapter": 137,
+      "summary": "Venli presents Jasnah’s treaty; El acknowledges the listeners’ claim and withdraws his forces.",
+      "characters": [
+        "venli",
+        "el",
+        "leshwi",
+        "thude",
+        "jasnah"
+      ],
+      "locations": [
+        "shattered-plains"
+      ],
+      "sources": [
+        "wat-137-140"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-radiant-integration",
+      "title": "Radiant rejoins Shallan",
+      "book": "WAT",
+      "chapter": 138,
+      "summary": "Shallan integrates Radiant after facing Mraize herself, while acknowledging continued mental-health work.",
+      "characters": [
+        "shallan",
+        "pattern"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-137-140"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-kaladin-fifth",
+      "title": "Kaladin speaks the Fifth Ideal",
+      "book": "WAT",
+      "chapter": "139–140",
+      "summary": "Kaladin withstands the Heralds’ despair; his oath’s power expels the corrupting darkness from Ishar.",
+      "characters": [
+        "kaladin",
+        "syl",
+        "ishar",
+        "nale",
+        "szeth"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-137-140"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-mishram-free",
+      "title": "Renarin and Rlain free Mishram",
+      "book": "WAT",
+      "chapter": 140,
+      "summary": "Acting together, human and listener shatter the gemstone imprisoning Ba-Ado-Mishram.",
+      "characters": [
+        "renarin",
+        "rlain",
+        "ba-ado-mishram"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-137-140"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-honor",
+      "title": "Dalinar briefly becomes Honor",
+      "book": "WAT",
+      "chapter": 141,
+      "summary": "Mishram’s release helps Honor accept Dalinar as its vessel.",
+      "characters": [
+        "dalinar",
+        "honor"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-141-143"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-honor-renounced",
+      "title": "Dalinar renounces his oaths",
+      "book": "WAT",
+      "chapter": 143,
+      "summary": "After consulting Nohadon, Dalinar relinquishes Honor rather than accept Taravangian’s imposed alternatives.",
+      "characters": [
+        "dalinar",
+        "honor",
+        "nohadon",
+        "taravangian"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-141-143"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-nightblood-choice",
+      "title": "Nightblood chooses restraint",
+      "book": "WAT",
+      "chapter": 143,
+      "summary": "Nightblood stops consuming Szeth, preserving his life after the Honorbearers’ defeat.",
+      "characters": [
+        "nightblood",
+        "szeth",
+        "kaladin"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-141-143"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-new-oathpact",
+      "title": "Kaladin becomes a Herald",
+      "book": "WAT",
+      "chapter": 144,
+      "summary": "Kaladin replaces Jezrien in a renewed Oathpact protecting spren; he and Syl form an Honorspear.",
+      "characters": [
+        "kaladin",
+        "syl",
+        "ishar",
+        "nale"
+      ],
+      "locations": [
+        "shinovar"
+      ],
+      "sources": [
+        "wat-144-146"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-retribution",
+      "title": "Retribution takes power",
+      "book": "WAT",
+      "chapter": 145,
+      "summary": "Taravangian holds Honor and Odium together; Dalinar dies sheltering Gavinor.",
+      "characters": [
+        "taravangian",
+        "dalinar",
+        "gavinor",
+        "honor",
+        "odium"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-144-146"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-blackthorn",
+      "title": "Retribution makes a Blackthorn",
+      "book": "WAT",
+      "chapter": 145,
+      "summary": "Unable to retain Dalinar’s departing soul, Retribution recruits a Spiritual remnant of his violent past.",
+      "characters": [
+        "taravangian",
+        "dalinar"
+      ],
+      "locations": [
+        "spiritual-realm"
+      ],
+      "sources": [
+        "wat-144-146"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-tower-protected",
+      "title": "Urithiru is sealed",
+      "book": "WAT",
+      "chapter": 146,
+      "summary": "Navani and the Sibling enter suspended protection; Towerlight sustains the isolated tower.",
+      "characters": [
+        "navani",
+        "sibling",
+        "renarin",
+        "rlain",
+        "jasnah"
+      ],
+      "locations": [
+        "urithiru"
+      ],
+      "sources": [
+        "wat-144-146"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-exist",
+      "title": "Sigzil receives the Dawnshard",
+      "book": "WAT",
+      "chapter": 146,
+      "summary": "Hoid transfers his Dawnshard to Sigzil before Retribution destroys Hoid’s local body.",
+      "characters": [
+        "sigzil",
+        "wit",
+        "taravangian"
+      ],
+      "locations": [
+        "urithiru",
+        "shadesmar"
+      ],
+      "sources": [
+        "wat-144-146"
+      ],
+      "timeLabel": "Ten-day countdown",
+      "chronologyPrecision": "chapter",
+      "timeKind": "present",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-after-war",
+      "title": "Separated survivors establish new footholds",
+      "book": "WAT",
+      "chapter": 147,
+      "summary": "Adolin leads the Unoathed in Azimir; Shallan seeks communication from Shadesmar; Sigzil leaves Roshar.",
+      "characters": [
+        "adolin",
+        "shallan",
+        "sigzil",
+        "maya"
+      ],
+      "locations": [
+        "azimir",
+        "shadesmar"
+      ],
+      "sources": [
+        "wat-147"
+      ],
+      "timeLabel": "Weeks to months after the contest; local time",
+      "chronologyPrecision": "relative interval",
+      "timeKind": "aftermath",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-time-bubble",
+      "title": "Roshar’s clock separates from the cosmere",
+      "book": "WAT",
+      "chapter": 147,
+      "summary": "Hoid’s recovery offworld reveals severe time dilation around Roshar and unreliable interplanetary communication.",
+      "characters": [
+        "wit"
+      ],
+      "locations": [
+        "scadrial",
+        "roshar"
+      ],
+      "sources": [
+        "wat-147"
+      ],
+      "timeLabel": "After the contest; frames of reference differ",
+      "chronologyPrecision": "approximate; distinct clocks",
+      "timeKind": "aftermath",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    },
+    {
+      "id": "wat-herald-healing",
+      "title": "The Heralds receive a chance to heal",
+      "book": "WAT",
+      "chapter": "Postlude",
+      "summary": "Kaladin welcomes Kalak into the protected vision; Taln has offered forgiveness.",
+      "characters": [
+        "kaladin",
+        "kalak",
+        "taln",
+        "ishar"
+      ],
+      "locations": [
+        "herald-sanctuary"
+      ],
+      "sources": [
+        "wat-147"
+      ],
+      "timeLabel": "After the renewed Oathpact; exact interval unspecified",
+      "chronologyPrecision": "uncertain interval",
+      "timeKind": "aftermath",
+      "confidence": "high",
+      "chronologyNote": "Chapter order locates the reveal; parallel viewpoints are not a precise shared clock."
+    }
+  ],
+  "statusChanges": [
+    {
+      "entityId": "kaladin",
+      "book": "WAT",
+      "chapter": "144; Postlude",
+      "label": "Herald replacing Jezrien; enters protected recovery with the other Heralds.",
+      "sources": [
+        "herald-wiki",
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "syl",
+      "book": "WAT",
+      "chapter": "144",
+      "label": "Participates in forming Kaladin’s Honorspear.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "dalinar",
+      "book": "WAT",
+      "chapter": "145",
+      "label": "Dead; his soul escapes Retribution.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "navani",
+      "book": "WAT",
+      "chapter": "146",
+      "label": "Unconscious within Urithiru’s protective crystal.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "sibling",
+      "book": "WAT",
+      "chapter": "146",
+      "label": "Withdrawn into protective suspension with Navani.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "adolin",
+      "book": "WAT",
+      "chapter": "133; 147",
+      "label": "Survives; leads the Unoathed and uses an armored prosthetic.",
+      "sources": [
+        "wat-133-136",
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "maya",
+      "book": "WAT",
+      "chapter": "147",
+      "label": "Eyes restored with scars; able to carry messages.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "renarin",
+      "book": "WAT",
+      "chapter": "146",
+      "label": "Rejects kingship; proposes representative government for Urithiru.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "rlain",
+      "book": "WAT",
+      "chapter": "121; 140; 146",
+      "label": "Renarin’s partner; helps free Mishram and returns to Urithiru.",
+      "sources": [
+        "wat-121-123",
+        "wat-137-140",
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "shallan",
+      "book": "WAT",
+      "chapter": "147",
+      "label": "Stranded in Shadesmar; pregnancy strongly implied.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "strong inference",
+      "note": "The text implies pregnancy through her gestures and thoughts; do not turn this into an unqualified confirmed status."
+    },
+    {
+      "entityId": "pattern",
+      "book": "WAT",
+      "chapter": "147",
+      "label": "With Shallan in Shadesmar after the crisis.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "testament",
+      "book": "WAT",
+      "chapter": "147",
+      "label": "Recovering after Mishram’s release; remains with Shallan.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "szeth",
+      "book": "WAT",
+      "chapter": "146",
+      "label": "Survives missing an arm; seeks Skybreaker dissenters.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "nightblood",
+      "book": "WAT",
+      "chapter": "143",
+      "label": "Learns to refrain from killing its bearer.",
+      "sources": [
+        "wat-141-143"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "nale",
+      "book": "WAT",
+      "chapter": "110; 144",
+      "label": "Compassion resurfacing; participates in the renewed Oathpact.",
+      "sources": [
+        "wat-109-112",
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "ishar",
+      "book": "WAT",
+      "chapter": "140; 144",
+      "label": "Purged of corrupting darkness; helps renew the Oathpact.",
+      "sources": [
+        "wat-137-140",
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "taravangian",
+      "book": "WAT",
+      "chapter": "145",
+      "label": "Vessel of combined Honor and Odium: Retribution.",
+      "sources": [
+        "retribution-wiki"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "stormfather",
+      "book": "WAT",
+      "chapter": "143–144",
+      "label": "Destroyed when Dalinar renounces his oaths.",
+      "sources": [
+        "wat-141-143",
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "cultivation",
+      "book": "WAT",
+      "chapter": "145",
+      "label": "Leaves Roshar following Retribution’s rise.",
+      "sources": [
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "honor",
+      "book": "WAT",
+      "chapter": "141; 145",
+      "label": "Accepted Dalinar briefly; subsequently joined with Odium.",
+      "sources": [
+        "honor-wiki"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "gavinor",
+      "book": "WAT",
+      "chapter": "131; 145",
+      "label": "Adult after imposed Spiritual-Realm years; survives the contest.",
+      "sources": [
+        "wat-130-132",
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "wit",
+      "book": "WAT",
+      "chapter": "147",
+      "label": "Reconstituted on Scadrial; remains separated from Design.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "design",
+      "book": "WAT",
+      "chapter": "147",
+      "label": "Remains on Roshar while Hoid is offworld.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "sigzil",
+      "book": "WAT",
+      "chapter": "146–147",
+      "label": "Carries Hoid’s Dawnshard; departs through Shadesmar.",
+      "sources": [
+        "wat-144-146",
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "vienta",
+      "book": "WAT",
+      "chapter": "118",
+      "label": "Saved from Moash by Sigzil breaking their bond.",
+      "sources": [
+        "wat-117-120"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "12124",
+      "book": "WAT",
+      "chapter": "135; 147",
+      "label": "Rejected by Szeth; meets Sigzil’s departing caravan.",
+      "sources": [
+        "wat-133-136",
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "fen",
+      "book": "WAT",
+      "chapter": "116",
+      "label": "Accepts Odium’s terms for Thaylenah.",
+      "sources": [
+        "wat-113-116"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "jasnah",
+      "book": "WAT",
+      "chapter": "116; 146",
+      "label": "Fails to retain Thaylenah; reconsiders her moral philosophy.",
+      "sources": [
+        "wat-113-116",
+        "wat-144-146"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "venli",
+      "book": "WAT",
+      "chapter": "137",
+      "label": "Secures the listeners’ territorial recognition at the Plains.",
+      "sources": [
+        "wat-137-140"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "el",
+      "book": "WAT",
+      "chapter": "137",
+      "label": "Recognizes the treaty and orders withdrawal.",
+      "sources": [
+        "wat-137-140"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "leshwi",
+      "book": "WAT",
+      "chapter": "89",
+      "label": "Still vulnerable to Odium’s compulsion despite her defection.",
+      "sources": [
+        "wat-88-90"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "mraize",
+      "book": "WAT",
+      "chapter": "137",
+      "label": "Killed by the anti-Stormlight trap.",
+      "sources": [
+        "wat-137-140"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "iyatil",
+      "book": "WAT",
+      "chapter": "134",
+      "label": "Killed after her false Formless disguise is exposed.",
+      "sources": [
+        "wat-133-136"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "chanarach",
+      "book": "WAT",
+      "chapter": "99",
+      "label": "Meets Shallan in the Spiritual Realm and receives forgiveness.",
+      "sources": [
+        "wat-99"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "kalak",
+      "book": "WAT",
+      "chapter": "Postlude",
+      "label": "Joins the Heralds’ protected mental refuge.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "taln",
+      "book": "WAT",
+      "chapter": "Postlude",
+      "label": "Returns to the Herald circle; offers forgiveness.",
+      "sources": [
+        "wat-147"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "shalash",
+      "book": "WAT",
+      "chapter": "85",
+      "label": "Found wounded after defending Azimir with Taln.",
+      "sources": [
+        "wat-84-85"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "rysn",
+      "book": "WAT",
+      "chapter": "Interlude 15",
+      "label": "Hides after recognizing the danger of her Dawnshard.",
+      "sources": [
+        "wat-99"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "gawx",
+      "book": "WAT",
+      "chapter": "135–136",
+      "label": "Helps retake Azimir and holds his throne.",
+      "sources": [
+        "wat-133-136"
+      ],
+      "certainty": "confirmed",
+      "note": "Existing atlas uses gawx for the emperor now named Yanagawn."
+    },
+    {
+      "entityId": "thude",
+      "book": "WAT",
+      "chapter": "137",
+      "label": "Participates in the listeners’ negotiations and reclaimed homeland.",
+      "sources": [
+        "wat-137-140"
+      ],
+      "certainty": "confirmed"
+    },
+    {
+      "entityId": "noura",
+      "book": "WAT",
+      "chapter": "135–136",
+      "label": "Helps hold Azimir’s throne room at the deadline.",
+      "sources": [
+        "wat-133-136"
+      ],
+      "certainty": "confirmed"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "chanarach",
+      "target": "shallan",
+      "kind": "parent",
+      "label": "mother and daughter",
+      "book": "WAT",
+      "chapter": 97,
+      "sourceIds": [
+        "wat-95-98"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "renarin",
+      "target": "rlain",
+      "kind": "romantic",
+      "label": "choose a relationship",
+      "book": "WAT",
+      "chapter": 121,
+      "sourceIds": [
+        "wat-121-123"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "adolin",
+      "target": "maya",
+      "kind": "friendship",
+      "label": "cooperate without a Radiant oath",
+      "book": "WAT",
+      "chapter": "133–136",
+      "sourceIds": [
+        "wat-133-136"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "kaladin",
+      "target": "nale",
+      "kind": "healing",
+      "label": "helps recover compassion through music",
+      "book": "WAT",
+      "chapter": 110,
+      "sourceIds": [
+        "wat-109-112"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "szeth",
+      "target": "12124",
+      "kind": "bond",
+      "label": "ends their bond",
+      "book": "WAT",
+      "chapter": 135,
+      "sourceIds": [
+        "wat-133-136"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "sigzil",
+      "target": "vienta",
+      "kind": "bond",
+      "label": "renounces oaths to save her",
+      "book": "WAT",
+      "chapter": 118,
+      "sourceIds": [
+        "wat-117-120"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "taravangian",
+      "target": "gavinor",
+      "kind": "manipulation",
+      "label": "conditions him as champion",
+      "book": "WAT",
+      "chapter": 131,
+      "sourceIds": [
+        "wat-130-132"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "adolin",
+      "target": "shallan",
+      "kind": "spouse",
+      "label": "separated across Realms after the contest",
+      "book": "WAT",
+      "chapter": 147,
+      "sourceIds": [
+        "wat-147"
+      ],
+      "confidence": "high"
+    },
+    {
+      "source": "jasnah",
+      "target": "wit",
+      "kind": "romantic",
+      "label": "relationship ends; farewell letter received",
+      "book": "WAT",
+      "chapter": 146,
+      "sourceIds": [
+        "wat-144-146"
+      ],
+      "status": "ended",
+      "confidence": "high"
+    }
+  ],
+  "supplements": [
+    {
+      "id": "elsecaller",
+      "abbr": "EC",
+      "title": "Elsecaller",
+      "authors": [
+        "Brandon Sanderson",
+        "Dan Wells"
+      ],
+      "kind": "Stormlight short story",
+      "published": true,
+      "publication": {
+        "storyDeck": "2024-12-05",
+        "print": "2025-12-04",
+        "ebook": "2026-07-21"
+      },
+      "placement": "During Words of Radiance: from the Wind’s Pleasure attack to Jasnah’s reunion with Wit.",
+      "spoilerBoundary": "WoR ending",
+      "sources": [
+        "lost-tales-official",
+        "elsecaller-wiki"
+      ],
+      "coverage": "Original arc synopsis; no page or card locators verified.",
+      "summary": "Jasnah survives the shipboard attack in Shadesmar. Pursued by angerspren, she confronts her own anger and her treatment of strangers before returning.",
+      "events": [
+        {
+          "id": "ec-escape",
+          "title": "Jasnah escapes the shipboard attack",
+          "summary": "Jasnah Elsecalls into Shadesmar and heals, exhausting the power needed to return.",
+          "characters": [
+            "jasnah",
+            "ivory"
+          ],
+          "source": "elsecaller-wiki",
+          "book": "EC",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 1,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "ec-rescue",
+          "title": "Worldhoppers offer help",
+          "summary": "Hwynn Tyvneri and Lorieta help Jasnah and Ivory escape pursuing angerspren.",
+          "characters": [
+            "jasnah",
+            "ivory",
+            "hwynn-tyvneri",
+            "lorieta"
+          ],
+          "source": "elsecaller-wiki",
+          "book": "EC",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 2,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "ec-knowledge",
+          "title": "Jasnah learns of other worlds",
+          "summary": "Tyvneri explains the cosmere; Jasnah initially intends to compel his assistance.",
+          "characters": [
+            "jasnah",
+            "hwynn-tyvneri"
+          ],
+          "source": "tyvneri-wiki",
+          "book": "EC",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 3,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "ec-self-forgiveness",
+          "title": "The emotional pursuit ends",
+          "summary": "Jasnah forgives herself; the angerspren disperse, and she releases her companions.",
+          "characters": [
+            "jasnah",
+            "hwynn-tyvneri",
+            "lorieta"
+          ],
+          "source": "elsecaller-wiki",
+          "book": "EC",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 4,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "ec-return",
+          "title": "Jasnah returns to the Physical Realm",
+          "summary": "Honor’s perpendicularity provides passage; Wit awaits her and offers cosmere knowledge.",
+          "characters": [
+            "jasnah",
+            "ivory",
+            "wit"
+          ],
+          "source": "elsecaller-wiki",
+          "book": "EC",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 5,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        }
+      ],
+      "characters": [
+        {
+          "id": "hwynn-tyvneri",
+          "name": "Hwynn Tyvneri",
+          "summary": "Worldhopping historian from Rellam; guardian and helper to Lorieta.",
+          "sources": [
+            "tyvneri-wiki"
+          ]
+        },
+        {
+          "id": "lorieta",
+          "name": "Lorieta",
+          "summary": "Young traveler whose visions show possible futures.",
+          "sources": [
+            "elsecaller-wiki"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "king-lopen",
+      "abbr": "KL",
+      "title": "King Lopen the First of Alethkar",
+      "authors": [
+        "Brandon Sanderson",
+        "Isaac Stewart"
+      ],
+      "kind": "Stormlight short story",
+      "published": true,
+      "publication": {
+        "storyDeck": "2024-12-05",
+        "print": "2025-12-04",
+        "ebook": "2026-07-21"
+      },
+      "placement": "Late Words of Radiance, while Elhokar hides with Lopen’s family after the assassination attempt.",
+      "spoilerBoundary": "WoR ending",
+      "sources": [
+        "lost-tales-official",
+        "lopen-wiki"
+      ],
+      "coverage": "Original arc synopsis from the community summary; precise page/card locators unverified.",
+      "summary": "Elhokar hides among Lopen’s family and learns about leadership while Lopen’s royal impersonation diverts attention.",
+      "events": [
+        {
+          "id": "kl-refuge",
+          "title": "A king in hiding",
+          "summary": "Lopen’s family shelters Elhokar in a Herdazian neighborhood using a disguise.",
+          "characters": [
+            "elhokar",
+            "lopen"
+          ],
+          "source": "lopen-wiki",
+          "book": "KL",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 1,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "kl-regrowth",
+          "title": "Lopen’s arm returns",
+          "summary": "Stormlight regrows Lopen’s missing arm while he plans a royal decoy.",
+          "characters": [
+            "lopen"
+          ],
+          "source": "lopen-wiki",
+          "book": "KL",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 2,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "kl-decoy",
+          "title": "King Lopen takes the stage",
+          "summary": "Lopen claims kingship to keep attention away from the recovering Elhokar.",
+          "characters": [
+            "lopen",
+            "elhokar"
+          ],
+          "source": "lopen-wiki",
+          "book": "KL",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 3,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "kl-listening",
+          "title": "Mama Isa teaches humility",
+          "summary": "Living with the family challenges Elhokar’s assumptions about authority and listening.",
+          "characters": [
+            "elhokar",
+            "mama-isa"
+          ],
+          "source": "lopen-wiki",
+          "book": "KL",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 4,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "kl-attack",
+          "title": "A second attempt fails",
+          "summary": "Lopen stops another assassination attempt and is injured defending the king.",
+          "characters": [
+            "lopen",
+            "elhokar"
+          ],
+          "source": "lopen-wiki",
+          "book": "KL",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 5,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        },
+        {
+          "id": "kl-resolution",
+          "title": "Two forms of responsibility",
+          "summary": "Elhokar recovers resolve; Lopen recognizes he can help without being king.",
+          "characters": [
+            "lopen",
+            "elhokar"
+          ],
+          "source": "lopen-wiki",
+          "book": "KL",
+          "chapter": "Unnumbered story",
+          "narrativeOrder": 6,
+          "chronologyPrecision": "relative sequence",
+          "chronologyNote": "Placement within Words of Radiance is established; no exact shared clock or card locator is asserted.",
+          "confidence": "medium"
+        }
+      ],
+      "characters": [
+        {
+          "id": "mama-isa",
+          "name": "Mama Isa",
+          "summary": "Lopen’s mother; shelters Elhokar and teaches him to listen.",
+          "sources": [
+            "lopen-wiki"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "official-series",
+      "title": "Official Stormlight series",
+      "url": "https://www.brandonsanderson.com/pages/the-stormlight-archive-series",
+      "type": "official author bibliography",
+      "quality": "primary; author",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "official-2025",
+      "title": "State of the Sanderson 2025",
+      "url": "https://www.brandonsanderson.com/blogs/blog/state-of-the-sanderson-2025",
+      "type": "official author update",
+      "quality": "primary; author; supersedes older tentative dates",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "official-ten",
+      "title": "How many books will be in the Stormlight Archive?",
+      "url": "https://faq.brandonsanderson.com/knowledge-base/how-many-books-will-be-in-the-stormlight-archive/",
+      "type": "official author FAQ",
+      "quality": "primary; planned scope, not published content",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "lost-tales-official",
+      "title": "Elsecaller / King Lopen ebook",
+      "url": "https://www.dragonsteelbooks.com/products/elsecaller-king-lopen-the-first-of-alethkar-ebook",
+      "type": "official publisher catalog",
+      "quality": "primary; publication and marketing scope only",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "lost-tales-print",
+      "title": "Elsecaller / King Lopen hardcover",
+      "url": "https://www.dragonsteelbooks.com/products/elsecaller-king-lopen-story-deck-double-book",
+      "type": "official publisher catalog",
+      "quality": "primary; print listing",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "elsecaller-wiki",
+      "title": "Elsecaller short story",
+      "url": "https://coppermind.net/wiki/Elsecaller_(short_story)",
+      "type": "community encyclopedia",
+      "quality": "secondary; summary indexed by search; direct fetch blocked",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "tyvneri-wiki",
+      "title": "Hwynn Tyvneri",
+      "url": "https://coppermind.net/wiki/Hwynn_Tyvneri",
+      "type": "community encyclopedia",
+      "quality": "secondary; character cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "lopen-wiki",
+      "title": "King Lopen the First of Alethkar",
+      "url": "https://coppermind.net/wiki/King_Lopen_the_First_of_Alethkar",
+      "type": "community encyclopedia",
+      "quality": "secondary; summary indexed by search; direct fetch blocked",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "retribution-wiki",
+      "title": "Retribution",
+      "url": "https://coppermind.net/wiki/Retribution",
+      "type": "community encyclopedia",
+      "quality": "secondary; indexed encyclopedia cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "honor-wiki",
+      "title": "Honor",
+      "url": "https://coppermind.net/wiki/Honor",
+      "type": "community encyclopedia",
+      "quality": "secondary; indexed encyclopedia cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "herald-wiki",
+      "title": "Herald",
+      "url": "https://coppermind.net/wiki/Herald",
+      "type": "community encyclopedia",
+      "quality": "secondary; indexed encyclopedia cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "nightblood-wiki",
+      "title": "Nightblood",
+      "url": "https://coppermind.net/wiki/Nightblood",
+      "type": "community encyclopedia",
+      "quality": "secondary; indexed encyclopedia cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "unoathed-wiki",
+      "title": "Unoathed",
+      "url": "https://coppermind.net/wiki/Unoathed",
+      "type": "community encyclopedia",
+      "quality": "secondary; indexed encyclopedia cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "radiants-wiki",
+      "title": "Knights Radiant",
+      "url": "https://coppermind.net/wiki/Knights_Radiant",
+      "type": "community encyclopedia",
+      "quality": "secondary; indexed encyclopedia cross-check",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-index",
+      "title": "Wind and Truth excerpts and reread index",
+      "url": "https://reactormag.com/columns/wind-and-truth/",
+      "type": "publisher-hosted index",
+      "quality": "primary index; distinguishes excerpts from commentary",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-prologue",
+      "title": "Wind and Truth authorized Prologue",
+      "url": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-preface-and-prologue/",
+      "type": "authorized novel excerpt",
+      "quality": "primary; prose by Brandon Sanderson",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-3-4",
+      "title": "Wind and Truth chapters 3–4 commentary",
+      "url": "https://reactormag.com/wind-and-truth-read-along-discussion-chapters-3-and-4-2/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-12-13",
+      "title": "Wind and Truth authorized chapters 12–13",
+      "url": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-chapters-12-and-13/",
+      "type": "authorized novel excerpt",
+      "quality": "primary; prose by Brandon Sanderson",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-21-22",
+      "title": "Wind and Truth chapters 21–22 commentary",
+      "url": "https://reactormag.com/wind-and-truth-read-along-discussion-chapters-21-and-22/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-31-32",
+      "title": "Wind and Truth authorized chapters 31–32",
+      "url": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-chapters-31-and-32/",
+      "type": "authorized novel excerpt",
+      "quality": "primary; prose by Brandon Sanderson",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-69-71",
+      "title": "Wind and Truth 69-71 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-69-71/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-84-85",
+      "title": "Wind and Truth 84-85 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-84-and-85/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-88-90",
+      "title": "Wind and Truth 88-90 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-88-90/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-95-98",
+      "title": "Wind and Truth 95-98 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-95-98/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-99",
+      "title": "Wind and Truth 99 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapter-99-interludes-15-and-16/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-100-104",
+      "title": "Wind and Truth 100-104 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-100-104/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-105-108",
+      "title": "Wind and Truth 105-108 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-105-108/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-109-112",
+      "title": "Wind and Truth 109-112 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-109-112/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-113-116",
+      "title": "Wind and Truth 113-116 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-113-116/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-117-120",
+      "title": "Wind and Truth 117-120 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-117-120/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-121-123",
+      "title": "Wind and Truth 121-123 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-117-120-2/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-126-127",
+      "title": "Wind and Truth 126-127 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-126-and-127/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-128-129",
+      "title": "Wind and Truth 128-129 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-128-and-129/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-130-132",
+      "title": "Wind and Truth 130-132 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-130-132/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-133-136",
+      "title": "Wind and Truth 133-136 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-133-136/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-137-140",
+      "title": "Wind and Truth 137-140 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-137-140/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-141-143",
+      "title": "Wind and Truth 141-143 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-141-143/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-144-146",
+      "title": "Wind and Truth 144-146 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapters-144-146/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    },
+    {
+      "id": "wat-147",
+      "title": "Wind and Truth 147 reread",
+      "url": "https://reactormag.com/wind-and-truth-reread-chapter-147-epilogue-and-postlude/",
+      "type": "publisher-hosted commentary",
+      "quality": "secondary; chapter-specific reread by beta readers",
+      "verifiedAt": "2026-10-16",
+      "derivationLimitWords": 200
+    }
+  ],
+  "newEntitiesNeeded": [
+    {
+      "id": "spiritual-realm",
+      "name": "Spiritual Realm",
+      "type": "location",
+      "note": "Nonspatial Realm; do not assign geographic coordinates."
+    },
+    {
+      "id": "herald-sanctuary",
+      "name": "Heralds’ protected vision",
+      "type": "location",
+      "note": "Mental refuge created with the renewed Oathpact; not a geographic map point."
+    },
+    {
+      "id": "vienta",
+      "name": "Vienta",
+      "type": "character",
+      "note": "Sigzil’s honorspren."
+    },
+    {
+      "id": "12124",
+      "name": "12124",
+      "type": "character",
+      "note": "Szeth’s highspren, later encountered by Sigzil; do not assume a later name at an earlier spoiler boundary."
+    },
+    {
+      "id": "neturo",
+      "name": "Neturo",
+      "type": "character",
+      "note": "Szeth’s father."
+    },
+    {
+      "id": "elid",
+      "name": "Elid",
+      "type": "character",
+      "note": "Szeth’s sister."
+    },
+    {
+      "id": "unoathed",
+      "name": "The Unoathed",
+      "type": "faction",
+      "note": "Adolin’s allies with awakened deadeye weapons and armor; not a Radiant order."
+    },
+    {
+      "id": "retribution",
+      "name": "Retribution",
+      "type": "magic",
+      "note": "Joined Honor and Odium under Taravangian; separate the Shards from their vessel."
+    },
+    {
+      "id": "honorspear",
+      "name": "Kaladin’s Honorspear",
+      "type": "item",
+      "note": "Created at the renewed Oathpact; distinct from Syl’s ordinary weapon forms."
+    }
+  ],
+  "qualityNotes": [
+    "Full published Stormlight scope must include the two Lost Tales first released in 2024 Story Decks and subsequently in print/ebook.",
+    "Wind and Truth ends the first five-book arc; the series itself is unfinished.",
+    "Shallan’s pregnancy is a strong textual implication and must remain labeled as such.",
+    "The Blackthorn recruited by Retribution is a Spiritual remnant, not evidence that the deceased Dalinar’s whole soul serves him.",
+    "Mishram’s release and recovering deadeyes are related in the ending; avoid claiming all deadeyes instantly recovered completely.",
+    "No copied fan art or map files were collected. Official map links can be offered with attribution; schematic coordinates must be labeled approximate.",
+    "Some community pages could only be read through indexed search text because direct requests returned 403. Publisher-hosted rereads were directly opened."
+  ],
+  "magicUpdates": [
+    {
+      "entityId": "stormlight",
+      "book": "WAT",
+      "chapter": "145–146",
+      "summary": "Retribution withdraws Stormlight; existing Radiant bonds do not provide a replacement fuel supply.",
+      "sources": [
+        "radiants-wiki"
+      ]
+    },
+    {
+      "entityId": "towerlight",
+      "book": "WAT",
+      "chapter": 146,
+      "summary": "Towerlight remains available inside protected Urithiru.",
+      "sources": [
+        "wat-147"
+      ]
+    },
+    {
+      "entityId": "oathgate",
+      "book": "WAT",
+      "chapter": "145–147",
+      "summary": "The loss of Stormlight disables Oathgate travel.",
+      "sources": [
+        "wat-147"
+      ]
+    },
+    {
+      "entityId": "oathpact",
+      "book": "WAT",
+      "chapter": 144,
+      "summary": "The renewed pact protects spren against Retribution, with Kaladin filling Jezrien’s place.",
+      "sources": [
+        "herald-wiki"
+      ]
+    },
+    {
+      "entityId": "nightblood-magic",
+      "book": "WAT",
+      "chapter": 140,
+      "summary": "Having learned from Honorblades, Nightblood can grant its wielder access to the Surges.",
+      "sources": [
+        "nightblood-wiki"
+      ]
+    },
+    {
+      "entityId": "dawnshard-command",
+      "book": "WAT",
+      "chapter": 146,
+      "summary": "Hoid transfers the Exist Dawnshard to Sigzil.",
+      "sources": [
+        "wat-147"
+      ]
+    },
+    {
+      "entityId": "dead-shardblade",
+      "book": "WAT",
+      "chapter": "135–147",
+      "summary": "Unoathed weapons and armor function without the ordinary Stormlight requirement.",
+      "sources": [
+        "unoathed-wiki"
+      ]
+    },
+    {
+      "entityId": "retribution",
+      "book": "WAT",
+      "chapter": 145,
+      "summary": "Honor and Odium are held together by Taravangian as Retribution.",
+      "sources": [
+        "retribution-wiki"
+      ]
+    }
+  ],
+  "itemUpdates": [
+    {
+      "entityId": "honorspear",
+      "name": "Kaladin’s Honorspear",
+      "book": "WAT",
+      "chapter": 144,
+      "summary": "A new divine spear forms as Kaladin joins the Heralds; it is distinct from Syl’s weapon form.",
+      "sources": [
+        "herald-wiki"
+      ]
+    },
+    {
+      "entityId": "shardplate-adolin",
+      "book": "WAT",
+      "chapter": 133,
+      "summary": "Armor chooses Adolin and reshapes to support his missing lower leg.",
+      "sources": [
+        "wat-133-136"
+      ]
+    },
+    {
+      "entityId": "nightblood-item",
+      "book": "WAT",
+      "chapter": "140–143",
+      "summary": "Grants Surgebinding learned from the Honorblades and exercises a choice not to consume Szeth.",
+      "sources": [
+        "nightblood-wiki"
+      ]
+    },
+    {
+      "entityId": "oathbringer-blade",
+      "book": "WAT",
+      "chapter": "131; 146",
+      "summary": "Gavinor carries Oathbringer as Odium’s champion and retains it after the contest.",
+      "sources": [
+        "wat-130-132"
+      ]
+    }
+  ],
+  "factionUpdates": [
+    {
+      "entityId": "unoathed",
+      "name": "The Unoathed",
+      "book": "WAT",
+      "chapter": "135–147",
+      "summary": "Adolin’s deadeye-associated Shardbearers form an ongoing force in Azimir.",
+      "sources": [
+        "unoathed-wiki"
+      ]
+    },
+    {
+      "entityId": "listeners",
+      "book": "WAT",
+      "chapter": 137,
+      "summary": "A signed treaty recognizes listener ownership of the Shattered Plains.",
+      "sources": [
+        "wat-137-140"
+      ]
+    },
+    {
+      "entityId": "thaylenah",
+      "book": "WAT",
+      "chapter": 116,
+      "summary": "Fen makes a protective agreement with Odium.",
+      "sources": [
+        "wat-113-116"
+      ]
+    },
+    {
+      "entityId": "ghostbloods",
+      "book": "WAT",
+      "chapter": "134; 137",
+      "summary": "Iyatil and Mraize die; the wider organization continues.",
+      "sources": [
+        "wat-133-136",
+        "wat-137-140"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "entities": 494,
+  "events": 190,
+  "chapters": 671,
+  "rendered": 1435,
+  "checkedLinks": 22256,
+  "transitions": [
+    {
+      "gate": 0,
+      "entities": 0,
+      "events": 0
+    },
+    {
+      "gate": 1,
+      "entities": 77,
+      "events": 22
+    },
+    {
+      "gate": 2,
+      "entities": 119,
+      "events": 51
+    },
+    {
+      "gate": 3,
+      "entities": 126,
+      "events": 55
+    },
+    {
+      "gate": 4,
+      "entities": 426,
+      "events": 101
+    },
+    {
+      "gate": 5,
+      "entities": 438,
+      "events": 110
+    },
+    {
+      "gate": 6,
+      "entities": 485,
+      "events": 140
+    },
+    {
+      "gate": 7,
+      "entities": 494,
+      "events": 190
+    }
+  ],
+  "browserVisualQA": "Not performed. The validation harness does not run a browser.",
+  "summary": "Validated 494 typed entities, 190 events and 671 indexed sections; 1435 rendered routes/details and 22256 link checks passed."
+}

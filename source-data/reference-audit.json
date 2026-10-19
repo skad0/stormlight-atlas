@@ -1,0 +1,3050 @@
+{
+  "auditedAt": "2026-10-16",
+  "input": "references/stormlight_through_rhythm_of_war_reference.json",
+  "originalInput": "references/stormlight_oathbringer_reference.json",
+  "scope": "Bounded structural audit of recovered references; selected high-confidence source checks. This is not an exhaustive literary fact check.",
+  "counts": {
+    "books": 6,
+    "characters": 202,
+    "factions": 90,
+    "locations": 67,
+    "magic": 71,
+    "items": 52,
+    "events": 129,
+    "chapters": 466,
+    "manualRelations": 136,
+    "graphNodes": 638,
+    "graphEdges": 3705
+  },
+  "checks": {
+    "danglingGraphEndpoints": [],
+    "danglingChapterAnchors": [],
+    "duplicateChapterKeys": [],
+    "selfLoopEdges": []
+  },
+  "globallyUnresolvedReferences": [
+    {
+      "group": "items",
+      "id": "taln-blade",
+      "field": "owners",
+      "value": "unknown"
+    }
+  ],
+  "polymorphicReferences": [
+    {
+      "group": "factions",
+      "id": "odium-forces",
+      "field": "members",
+      "value": "fused",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "factions",
+      "id": "odium-forces",
+      "field": "members",
+      "value": "unmade",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "magic",
+      "id": "voidlight",
+      "field": "users",
+      "value": "fused",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "magic",
+      "id": "everstorm",
+      "field": "users",
+      "value": "fused",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "magic",
+      "id": "half-shard",
+      "field": "users",
+      "value": "alethi-soldiers",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "magic",
+      "id": "fused-surges",
+      "field": "users",
+      "value": "fused",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "magic",
+      "id": "desolations",
+      "field": "users",
+      "value": "heralds",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "magic",
+      "id": "desolations",
+      "field": "users",
+      "value": "fused",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "jez-honorblade",
+      "field": "owners",
+      "value": "shin-stone-shamans",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "jez-honorblade",
+      "field": "owners",
+      "value": "house-kholin",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "taln-blade",
+      "field": "owners",
+      "value": "unknown",
+      "expectedType": "characters",
+      "actualTypes": [],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "kings-drop",
+      "field": "owners",
+      "value": "thaylenah",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "jezrien-dagger",
+      "field": "owners",
+      "value": "odium-forces",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "oathstone",
+      "field": "owners",
+      "value": "various-masters",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "shardbow",
+      "field": "owners",
+      "value": "alethi-armies",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "words-radiance-text",
+      "field": "locations",
+      "value": "kharbranth",
+      "expectedType": "locations",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "diagram-document",
+      "field": "locations",
+      "value": "kharbranth",
+      "expectedType": "locations",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "dawnchant",
+      "field": "owners",
+      "value": "scholars",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "gemstone-archive",
+      "field": "owners",
+      "value": "ancient-radiants",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "shallan-sketchbook",
+      "field": "locations",
+      "value": "kharbranth",
+      "expectedType": "locations",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "jashnah-soulcaster",
+      "field": "locations",
+      "value": "kharbranth",
+      "expectedType": "locations",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "davar-soulcaster",
+      "field": "owners",
+      "value": "house-davar",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "spanreeds-item",
+      "field": "owners",
+      "value": "coalition",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "aluminum-sheets",
+      "field": "owners",
+      "value": "ghostbloods",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "oathgate-platform",
+      "field": "owners",
+      "value": "radiants",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "honorblades",
+      "field": "owners",
+      "value": "heralds",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "honorblades",
+      "field": "owners",
+      "value": "shin-stone-shamans",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "half-shards-item",
+      "field": "owners",
+      "value": "jah-keved-armies",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "sadeas-bridge",
+      "field": "owners",
+      "value": "sadeas-principality",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "sadeas-bridge",
+      "field": "owners",
+      "value": "bridge-four",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "items",
+      "id": "shardbearer-kit",
+      "field": "owners",
+      "value": "shardbearers",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "events",
+      "id": "kaladin-second-ideal",
+      "field": "characters",
+      "value": "bridge-four",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    },
+    {
+      "group": "events",
+      "id": "dalinar-trades-oathbringer",
+      "field": "characters",
+      "value": "bridge-four",
+      "expectedType": "characters",
+      "actualTypes": [
+        "factions"
+      ],
+      "interpretation": "Polymorphic reference: resolve by actual type and label clearly; do not silently discard."
+    }
+  ],
+  "crossTypeIdCollisions": [
+    {
+      "id": "rysn",
+      "entities": [
+        {
+          "group": "characters",
+          "name": "Rysn Ftori"
+        },
+        {
+          "group": "factions",
+          "name": "Rysn’s household"
+        }
+      ]
+    },
+    {
+      "id": "aimia",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Aimia / Aimian peoples"
+        },
+        {
+          "group": "locations",
+          "name": "Aimia"
+        }
+      ]
+    },
+    {
+      "id": "alethkar",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Alethkar"
+        },
+        {
+          "group": "locations",
+          "name": "Alethkar"
+        }
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Hearthstone community"
+        },
+        {
+          "group": "locations",
+          "name": "Hearthstone"
+        }
+      ]
+    },
+    {
+      "id": "natanatan",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Natanatan legacy"
+        },
+        {
+          "group": "locations",
+          "name": "Natanatan"
+        }
+      ]
+    },
+    {
+      "id": "purelake",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Purelake communities"
+        },
+        {
+          "group": "locations",
+          "name": "Purelake"
+        }
+      ]
+    },
+    {
+      "id": "tukar",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Tukar"
+        },
+        {
+          "group": "locations",
+          "name": "Tukar"
+        }
+      ]
+    },
+    {
+      "id": "reshi-isles",
+      "entities": [
+        {
+          "group": "factions",
+          "name": "Reshi Isles communities"
+        },
+        {
+          "group": "locations",
+          "name": "Reshi Isles"
+        }
+      ]
+    }
+  ],
+  "exactDuplicateGraphEdges": [],
+  "structuralDuplicateGraphEdges": [
+    {
+      "edgeIds": [
+        "edge-98",
+        "edge-1379"
+      ],
+      "source": "character:kaladin",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-99",
+        "edge-1497"
+      ],
+      "source": "character:kaladin",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-111",
+        "edge-1380"
+      ],
+      "source": "character:syl",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-124",
+        "edge-1349"
+      ],
+      "source": "character:dalinar",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-125",
+        "edge-1400"
+      ],
+      "source": "character:dalinar",
+      "target": "faction:bondsmiths",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-126",
+        "edge-1494"
+      ],
+      "source": "character:dalinar",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-139",
+        "edge-1350"
+      ],
+      "source": "character:navani",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-140",
+        "edge-1495"
+      ],
+      "source": "character:navani",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-154",
+        "edge-1352"
+      ],
+      "source": "character:adolin",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-155",
+        "edge-1498"
+      ],
+      "source": "character:adolin",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-168",
+        "edge-1411"
+      ],
+      "source": "character:renarin",
+      "target": "faction:truthwatchers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-170",
+        "edge-1499"
+      ],
+      "source": "character:renarin",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-177",
+        "edge-1351"
+      ],
+      "source": "character:jasnah",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-178",
+        "edge-1407"
+      ],
+      "source": "character:jasnah",
+      "target": "faction:elsecallers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-179",
+        "edge-1496"
+      ],
+      "source": "character:jasnah",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-221",
+        "edge-1423"
+      ],
+      "source": "character:szeth",
+      "target": "faction:skybreakers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-236",
+        "edge-1611"
+      ],
+      "source": "character:nightblood",
+      "target": "faction:nalthis-connection",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-248",
+        "edge-1589"
+      ],
+      "source": "character:wit",
+      "target": "faction:worldhoppers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-259",
+        "edge-1445"
+      ],
+      "source": "character:taravangian",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-260",
+        "edge-1575"
+      ],
+      "source": "character:taravangian",
+      "target": "faction:kharbranth",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-261",
+        "edge-1502"
+      ],
+      "source": "character:taravangian",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-272",
+        "edge-1418"
+      ],
+      "source": "character:lift",
+      "target": "faction:edgedancers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-273",
+        "edge-1571"
+      ],
+      "source": "character:lift",
+      "target": "faction:azir",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-293",
+        "edge-1488"
+      ],
+      "source": "character:odium",
+      "target": "faction:odium-forces",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-306",
+        "edge-1401"
+      ],
+      "source": "character:stormfather",
+      "target": "faction:bondsmiths",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-331",
+        "edge-1348"
+      ],
+      "source": "character:gavilar",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-347",
+        "edge-1353"
+      ],
+      "source": "character:aesudan",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-352",
+        "edge-1354"
+      ],
+      "source": "character:gavinor",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-356",
+        "edge-1355"
+      ],
+      "source": "character:evi",
+      "target": "faction:house-kholin",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-390",
+        "edge-1455"
+      ],
+      "source": "character:amaram",
+      "target": "faction:sons-of-honor",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-392",
+        "edge-1490"
+      ],
+      "source": "character:amaram",
+      "target": "faction:odium-forces",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-400",
+        "edge-1513"
+      ],
+      "source": "character:sadeas",
+      "target": "faction:sadeas-principality",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-424",
+        "edge-1508"
+      ],
+      "source": "character:sebarial",
+      "target": "faction:alethi-highprinces",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-443",
+        "edge-1509"
+      ],
+      "source": "character:roion",
+      "target": "faction:alethi-highprinces",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-486",
+        "edge-1381"
+      ],
+      "source": "character:teft",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-494",
+        "edge-1359"
+      ],
+      "source": "character:rock",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-503",
+        "edge-1360"
+      ],
+      "source": "character:sigzil",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-511",
+        "edge-1361"
+      ],
+      "source": "character:lopen",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-537",
+        "edge-1362"
+      ],
+      "source": "character:skar",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-538",
+        "edge-1382"
+      ],
+      "source": "character:skar",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-545",
+        "edge-1363"
+      ],
+      "source": "character:drehy",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-546",
+        "edge-1383"
+      ],
+      "source": "character:drehy",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-553",
+        "edge-1364"
+      ],
+      "source": "character:hobber",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-554",
+        "edge-1384"
+      ],
+      "source": "character:hobber",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-560",
+        "edge-1365"
+      ],
+      "source": "character:leyten",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-575",
+        "edge-1366"
+      ],
+      "source": "character:peet",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-576",
+        "edge-1385"
+      ],
+      "source": "character:peet",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-583",
+        "edge-1367"
+      ],
+      "source": "character:torfin",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-590",
+        "edge-1368"
+      ],
+      "source": "character:natam",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-597",
+        "edge-1369"
+      ],
+      "source": "character:huio",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-609",
+        "edge-1370"
+      ],
+      "source": "character:bisig",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-622",
+        "edge-1371"
+      ],
+      "source": "character:dunny",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-625",
+        "edge-1372"
+      ],
+      "source": "character:maps",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-628",
+        "edge-1373"
+      ],
+      "source": "character:narm",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-631",
+        "edge-1374"
+      ],
+      "source": "character:mart",
+      "target": "faction:bridge-four",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-636",
+        "edge-1392"
+      ],
+      "source": "character:gaz",
+      "target": "faction:lightweavers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-655",
+        "edge-1424"
+      ],
+      "source": "character:helaran",
+      "target": "faction:skybreakers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-692",
+        "edge-1439"
+      ],
+      "source": "character:kabsal",
+      "target": "faction:ghostbloods",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-715",
+        "edge-1393"
+      ],
+      "source": "character:vathah",
+      "target": "faction:lightweavers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-731",
+        "edge-1395"
+      ],
+      "source": "character:ishnah",
+      "target": "faction:lightweavers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-735",
+        "edge-1438"
+      ],
+      "source": "character:tyn",
+      "target": "faction:ghostbloods",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-739",
+        "edge-1436"
+      ],
+      "source": "character:mraize",
+      "target": "faction:ghostbloods",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-746",
+        "edge-1437"
+      ],
+      "source": "character:iyatil",
+      "target": "faction:ghostbloods",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-751",
+        "edge-1440"
+      ],
+      "source": "character:luesh",
+      "target": "faction:ghostbloods",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-760",
+        "edge-1460"
+      ],
+      "source": "character:eshonai",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-767",
+        "edge-1461"
+      ],
+      "source": "character:venli",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-769",
+        "edge-1429"
+      ],
+      "source": "character:venli",
+      "target": "faction:willshapers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-779",
+        "edge-1430"
+      ],
+      "source": "character:timbre",
+      "target": "faction:willshapers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-784",
+        "edge-1489"
+      ],
+      "source": "character:ulim",
+      "target": "faction:odium-forces",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-789",
+        "edge-1466"
+      ],
+      "source": "character:demid",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-796",
+        "edge-1462"
+      ],
+      "source": "character:thude",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-801",
+        "edge-1463"
+      ],
+      "source": "character:jaxlim",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-804",
+        "edge-1464"
+      ],
+      "source": "character:klade",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-809",
+        "edge-1465"
+      ],
+      "source": "character:abronai",
+      "target": "faction:listeners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-826",
+        "edge-1474"
+      ],
+      "source": "character:hariel",
+      "target": "faction:fused",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-855",
+        "edge-1478"
+      ],
+      "source": "character:re-shephir",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-875",
+        "edge-1479"
+      ],
+      "source": "character:ashertmarn",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-879",
+        "edge-1480"
+      ],
+      "source": "character:sja-anat",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-887",
+        "edge-1481"
+      ],
+      "source": "character:yelig-nar",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-892",
+        "edge-1482"
+      ],
+      "source": "character:ba-ado-mishram",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-896",
+        "edge-1483"
+      ],
+      "source": "character:chemoarish",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-900",
+        "edge-1484"
+      ],
+      "source": "character:dai-gonarthis",
+      "target": "faction:unmade",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-904",
+        "edge-1446"
+      ],
+      "source": "character:adrotagia",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-909",
+        "edge-1447"
+      ],
+      "source": "character:mrall",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-914",
+        "edge-1448"
+      ],
+      "source": "character:graves",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-921",
+        "edge-1449"
+      ],
+      "source": "character:malata",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-925",
+        "edge-1450"
+      ],
+      "source": "character:spark",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-928",
+        "edge-1451"
+      ],
+      "source": "character:dova",
+      "target": "faction:diagram",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-938",
+        "edge-1569"
+      ],
+      "source": "character:gawx",
+      "target": "faction:azir",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-939",
+        "edge-1501"
+      ],
+      "source": "character:gawx",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-947",
+        "edge-1413"
+      ],
+      "source": "character:stump",
+      "target": "faction:truthwatchers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-954",
+        "edge-1556"
+      ],
+      "source": "character:arclo",
+      "target": "faction:sleepless",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-958",
+        "edge-1526"
+      ],
+      "source": "character:nale",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-959",
+        "edge-1422"
+      ],
+      "source": "character:nale",
+      "target": "faction:skybreakers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-969",
+        "edge-1561"
+      ],
+      "source": "character:fen",
+      "target": "faction:thaylenah",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-970",
+        "edge-1500"
+      ],
+      "source": "character:fen",
+      "target": "faction:kholin-coalition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-974",
+        "edge-1562"
+      ],
+      "source": "character:kmakl",
+      "target": "faction:thaylenah",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-980",
+        "edge-1519"
+      ],
+      "source": "character:rushu",
+      "target": "faction:ardentia",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1001",
+        "edge-1570"
+      ],
+      "source": "character:jochi",
+      "target": "faction:azir",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1005",
+        "edge-1525"
+      ],
+      "source": "character:jez",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1011",
+        "edge-1527"
+      ],
+      "source": "character:ishar",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1016",
+        "edge-1528"
+      ],
+      "source": "character:shalash",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1021",
+        "edge-1529"
+      ],
+      "source": "character:taln",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1029",
+        "edge-1530"
+      ],
+      "source": "character:kalak",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1036",
+        "edge-1531"
+      ],
+      "source": "character:battar",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1040",
+        "edge-1532"
+      ],
+      "source": "character:paliah",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1044",
+        "edge-1533"
+      ],
+      "source": "character:chanarach",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1047",
+        "edge-1534"
+      ],
+      "source": "character:vedel",
+      "target": "faction:heralds",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1051",
+        "edge-1402"
+      ],
+      "source": "character:nightwatcher",
+      "target": "faction:bondsmiths",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1056",
+        "edge-1412"
+      ],
+      "source": "character:glys",
+      "target": "faction:truthwatchers",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1070",
+        "edge-1549"
+      ],
+      "source": "character:maya",
+      "target": "faction:cultivationspren",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1081",
+        "edge-1539"
+      ],
+      "source": "character:notum",
+      "target": "faction:honorspren",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1086",
+        "edge-1540"
+      ],
+      "source": "character:phendorana",
+      "target": "faction:honorspren",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1087",
+        "edge-1386"
+      ],
+      "source": "character:phendorana",
+      "target": "faction:windrunners",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1108",
+        "edge-1609"
+      ],
+      "source": "character:zahel",
+      "target": "faction:nalthis-connection",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1115",
+        "edge-1581"
+      ],
+      "source": "character:azure",
+      "target": "faction:kholinar-resistance",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1116",
+        "edge-1610"
+      ],
+      "source": "character:azure",
+      "target": "faction:nalthis-connection",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1127",
+        "edge-1605"
+      ],
+      "source": "character:demoux",
+      "target": "faction:seventeenth-shard",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1131",
+        "edge-1606"
+      ],
+      "source": "character:galladon",
+      "target": "faction:seventeenth-shard",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1136",
+        "edge-1607"
+      ],
+      "source": "character:baon",
+      "target": "faction:seventeenth-shard",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1163",
+        "edge-1563"
+      ],
+      "source": "character:rysn",
+      "target": "faction:thaylenah",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1176",
+        "edge-1564"
+      ],
+      "source": "character:vstim",
+      "target": "faction:thaylenah",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1200",
+        "edge-1520"
+      ],
+      "source": "character:ellista",
+      "target": "faction:ardentia",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1236",
+        "edge-1623"
+      ],
+      "source": "character:cord",
+      "target": "faction:wandersail-expedition",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1237",
+        "edge-1648"
+      ],
+      "source": "character:cord",
+      "target": "faction:horneaters",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1253",
+        "edge-1653"
+      ],
+      "source": "character:ral-na",
+      "target": "faction:reshi-isles",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1259",
+        "edge-1654"
+      ],
+      "source": "character:talik",
+      "target": "faction:reshi-isles",
+      "kind": "member-of",
+      "layer": "membership"
+    },
+    {
+      "edgeIds": [
+        "edge-1299",
+        "edge-1657"
+      ],
+      "source": "character:tumi",
+      "target": "faction:sja-anat-spren",
+      "kind": "member-of",
+      "layer": "membership"
+    }
+  ],
+  "chapterCountVerification": [
+    {
+      "book": "TWoK",
+      "numberedChapters": 75,
+      "preludes": 1,
+      "prologues": 1,
+      "epilogues": 1,
+      "interludes": 9,
+      "expectedNarrativeRecords": 87,
+      "existingNarrativeRecords": 78,
+      "missingInterludes": 9,
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index"
+    },
+    {
+      "book": "WoR",
+      "numberedChapters": 89,
+      "preludes": 0,
+      "prologues": 1,
+      "epilogues": 1,
+      "interludes": 14,
+      "expectedNarrativeRecords": 105,
+      "existingNarrativeRecords": 91,
+      "missingInterludes": 14,
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index"
+    },
+    {
+      "book": "OB",
+      "numberedChapters": 122,
+      "preludes": 0,
+      "prologues": 1,
+      "epilogues": 1,
+      "interludes": 14,
+      "expectedNarrativeRecords": 138,
+      "existingNarrativeRecords": 124,
+      "missingInterludes": 14,
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index"
+    }
+  ],
+  "missingChapterRecords": [
+    {
+      "book": "TWoK",
+      "number": 11.1,
+      "label": "I-1 · Ishikk",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 11; before Ch. 12",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 1,
+      "afterChapter": 11,
+      "beforeChapter": 12,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 11.2,
+      "label": "I-2 · Nan Balat",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 11; before Ch. 12",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 2,
+      "afterChapter": 11,
+      "beforeChapter": 12,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 11.3,
+      "label": "I-3 · The Glory of Ignorance",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 11; before Ch. 12",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 3,
+      "afterChapter": 11,
+      "beforeChapter": 12,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 28.1,
+      "label": "I-4 · Rysn",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 28; before Ch. 29",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 4,
+      "afterChapter": 28,
+      "beforeChapter": 29,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 28.2,
+      "label": "I-5 · Axies the Collector",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 28; before Ch. 29",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 5,
+      "afterChapter": 28,
+      "beforeChapter": 29,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 28.3,
+      "label": "I-6 · A Work of Art",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 28; before Ch. 29",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 6,
+      "afterChapter": 28,
+      "beforeChapter": 29,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 51.1,
+      "label": "I-7 · Baxil",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 51; before Ch. 52",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 7,
+      "afterChapter": 51,
+      "beforeChapter": 52,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 51.2,
+      "label": "I-8 · Geranid",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 51; before Ch. 52",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 8,
+      "afterChapter": 51,
+      "beforeChapter": 52,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "TWoK",
+      "number": 51.3,
+      "label": "I-9 · Death Wears White",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 51; before Ch. 52",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 9,
+      "afterChapter": 51,
+      "beforeChapter": 52,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/The_Way_of_Kings",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings"
+    },
+    {
+      "book": "WoR",
+      "number": 12.1,
+      "label": "I-1 · Narak",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 12; before Ch. 13",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 1,
+      "afterChapter": 12,
+      "beforeChapter": 13,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 12.2,
+      "label": "I-2 · Ym",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 12; before Ch. 13",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 2,
+      "afterChapter": 12,
+      "beforeChapter": 13,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 12.3,
+      "label": "I-3 · Rysn",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 12; before Ch. 13",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 3,
+      "afterChapter": 12,
+      "beforeChapter": 13,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 12.4,
+      "label": "I-4 · Last Legion",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 12; before Ch. 13",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 4,
+      "afterChapter": 12,
+      "beforeChapter": 13,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 34.1,
+      "label": "I-5 · The Rider of Storms",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 34; before Ch. 35",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 5,
+      "afterChapter": 34,
+      "beforeChapter": 35,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 34.2,
+      "label": "I-6 · Zahel",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 34; before Ch. 35",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 6,
+      "afterChapter": 34,
+      "beforeChapter": 35,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 34.3,
+      "label": "I-7 · Taln",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 34; before Ch. 35",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 7,
+      "afterChapter": 34,
+      "beforeChapter": 35,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 34.4,
+      "label": "I-8 · A Form of Power",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 34; before Ch. 35",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 8,
+      "afterChapter": 34,
+      "beforeChapter": 35,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 58.1,
+      "label": "I-9 · Lift",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 58; before Ch. 59",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 9,
+      "afterChapter": 58,
+      "beforeChapter": 59,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 58.2,
+      "label": "I-10 · Szeth",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 58; before Ch. 59",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 10,
+      "afterChapter": 58,
+      "beforeChapter": 59,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 58.3,
+      "label": "I-11 · New Rhythms",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 58; before Ch. 59",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 11,
+      "afterChapter": 58,
+      "beforeChapter": 59,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 75.1,
+      "label": "I-12 · Lhan",
+      "arc": "Interludes after Part 4",
+      "arcRange": "After Ch. 75; before Ch. 76",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 12,
+      "afterChapter": 75,
+      "beforeChapter": 76,
+      "part": 4,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 75.2,
+      "label": "I-13 · A Part to Play",
+      "arc": "Interludes after Part 4",
+      "arcRange": "After Ch. 75; before Ch. 76",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 13,
+      "afterChapter": 75,
+      "beforeChapter": 76,
+      "part": 4,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "WoR",
+      "number": 75.3,
+      "label": "I-14 · Taravangian",
+      "arc": "Interludes after Part 4",
+      "arcRange": "After Ch. 75; before Ch. 76",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 14,
+      "afterChapter": 75,
+      "beforeChapter": 76,
+      "part": 4,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Words_of_Radiance/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Words_of_Radiance",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance"
+    },
+    {
+      "book": "OB",
+      "number": 32.1,
+      "label": "I-1 · Puuli",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 32; before Ch. 33",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 1,
+      "afterChapter": 32,
+      "beforeChapter": 33,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 32.2,
+      "label": "I-2 · Ellista",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 32; before Ch. 33",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 2,
+      "afterChapter": 32,
+      "beforeChapter": 33,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 32.3,
+      "label": "I-3 · The Rhythm of the Lost",
+      "arc": "Interludes after Part 1",
+      "arcRange": "After Ch. 32; before Ch. 33",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 3,
+      "afterChapter": 32,
+      "beforeChapter": 33,
+      "part": 1,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 57.1,
+      "label": "I-4 · Kaza",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 57; before Ch. 58",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 4,
+      "afterChapter": 57,
+      "beforeChapter": 58,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 57.2,
+      "label": "I-5 · Taravangian",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 57; before Ch. 58",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 5,
+      "afterChapter": 57,
+      "beforeChapter": 58,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 57.3,
+      "label": "I-6 · This One Is Mine",
+      "arc": "Interludes after Part 2",
+      "arcRange": "After Ch. 57; before Ch. 58",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 6,
+      "afterChapter": 57,
+      "beforeChapter": 58,
+      "part": 2,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 87.1,
+      "label": "I-7 · Envoy",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 87; before Ch. 88",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 7,
+      "afterChapter": 87,
+      "beforeChapter": 88,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 87.2,
+      "label": "I-8 · Mem",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 87; before Ch. 88",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 8,
+      "afterChapter": 87,
+      "beforeChapter": 88,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 87.3,
+      "label": "I-9 · True Labor Begins",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 87; before Ch. 88",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 9,
+      "afterChapter": 87,
+      "beforeChapter": 88,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 87.4,
+      "label": "I-10 · Sheler",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 87; before Ch. 88",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 10,
+      "afterChapter": 87,
+      "beforeChapter": 88,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 87.5,
+      "label": "I-11 · Her Reward",
+      "arc": "Interludes after Part 3",
+      "arcRange": "After Ch. 87; before Ch. 88",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 11,
+      "afterChapter": 87,
+      "beforeChapter": 88,
+      "part": 3,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 113.1,
+      "label": "I-12 · Rhythm of Withdrawal",
+      "arc": "Interludes after Part 4",
+      "arcRange": "After Ch. 113; before Ch. 114",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 12,
+      "afterChapter": 113,
+      "beforeChapter": 114,
+      "part": 4,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 113.2,
+      "label": "I-13 · Rysn",
+      "arc": "Interludes after Part 4",
+      "arcRange": "After Ch. 113; before Ch. 114",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 13,
+      "afterChapter": 113,
+      "beforeChapter": 114,
+      "part": 4,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    },
+    {
+      "book": "OB",
+      "number": 113.3,
+      "label": "I-14 · Teft",
+      "arc": "Interludes after Part 4",
+      "arcRange": "After Ch. 113; before Ch. 114",
+      "arcSummary": "Interlude navigation record. The source identifies its title and reading position; no precise in-world date is asserted.",
+      "anchors": [],
+      "read": false,
+      "special": true,
+      "interludeNumber": 14,
+      "afterChapter": 113,
+      "beforeChapter": 114,
+      "part": 4,
+      "chronologyConfidence": "not asserted",
+      "sourceUrl": "https://coppermind.net/wiki/Oathbringer/Chapter_index",
+      "bookSourceUrl": "https://coppermind.net/wiki/Oathbringer",
+      "summarySourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer"
+    }
+  ],
+  "suggestedCorrections": [
+    {
+      "target": "events:gavilar-assassinated",
+      "field": "dateLabel",
+      "old": "1173, assassination night",
+      "value": "1167, assassination night; exact date not asserted",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Assassination_of_Gavilar"
+    },
+    {
+      "target": "events:ob-prologue",
+      "field": "dateLabel",
+      "old": "1173 assassination night, flashback framing",
+      "value": "1167 assassination night, flashback framing",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Assassination_of_Gavilar"
+    },
+    {
+      "target": "events:row-prologue-navani",
+      "field": "dateLabel",
+      "old": "Six years before ROW main story; assassination night",
+      "value": "Eight years before ROW main story; assassination night in 1167",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Summary:Rhythm_of_War"
+    },
+    {
+      "target": "events:dalinar-navani-marriage",
+      "field": "chapter",
+      "old": "Ch. 32",
+      "value": "Ch. 4",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer/Chapter_4",
+      "note": "Move chapter anchor from 32 to 4. Presentation sort326 is not reliable chronology."
+    },
+    {
+      "target": "events:szeth-restored",
+      "field": "chapter",
+      "old": "Final interlude",
+      "value": "Ch. 88",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance/Chapter_88",
+      "note": "WoR final interlude block occurs before chapter76; Szeth restoration is in the ending numbered chapters."
+    },
+    {
+      "target": "events:moash-kills-jezrien",
+      "field": "chapter",
+      "old": "Final interlude",
+      "value": "Ch. 121",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Summary:Oathbringer/Chapter_121",
+      "note": "The final interludes occur before chapter114; Jezrien is killed in chapter121."
+    },
+    {
+      "target": "events:shallan-kills-tyn",
+      "field": "chapter",
+      "old": "Ch. 34–35",
+      "value": "Ch. 34",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Summary:Words_of_Radiance/Chapter_34"
+    },
+    {
+      "target": "events:chasmfiend-hunt",
+      "field": "chapter",
+      "old": "Ch. 12",
+      "value": "Ch. 13",
+      "confidence": "high",
+      "sourceUrl": "https://coppermind.net/wiki/Summary:The_Way_of_Kings/Chapter_13",
+      "note": "Chapter12 is Unity. Chapter13 is Ten Heartbeats and covers the hunt."
+    },
+    {
+      "target": "items:words-radiance-text",
+      "field": "locations",
+      "replace": "kharbranth",
+      "with": "kharbranth-city",
+      "confidence": "high",
+      "note": "kharbranth is the faction ID; kharbranth-city is the location ID."
+    },
+    {
+      "target": "items:diagram-document",
+      "field": "locations",
+      "replace": "kharbranth",
+      "with": "kharbranth-city",
+      "confidence": "high",
+      "note": "kharbranth is the faction ID; kharbranth-city is the location ID."
+    },
+    {
+      "target": "items:shallan-sketchbook",
+      "field": "locations",
+      "replace": "kharbranth",
+      "with": "kharbranth-city",
+      "confidence": "high",
+      "note": "kharbranth is the faction ID; kharbranth-city is the location ID."
+    },
+    {
+      "target": "items:jashnah-soulcaster",
+      "field": "locations",
+      "replace": "kharbranth",
+      "with": "kharbranth-city",
+      "confidence": "high",
+      "note": "kharbranth is the faction ID; kharbranth-city is the location ID."
+    }
+  ],
+  "chapterAnchorSuggestions": [
+    {
+      "book": "TWoK",
+      "number": 11.1,
+      "add": "ishikk-worldhoppers"
+    },
+    {
+      "book": "TWoK",
+      "number": 28.1,
+      "add": "rysn-shinovar"
+    },
+    {
+      "book": "TWoK",
+      "number": 28.2,
+      "add": "axies-cusicesh"
+    },
+    {
+      "book": "TWoK",
+      "number": 51.1,
+      "add": "baxil-ash"
+    },
+    {
+      "book": "WoR",
+      "number": 12.3,
+      "add": "rysn-reshi"
+    },
+    {
+      "book": "WoR",
+      "number": 58.1,
+      "add": "lift-saves-gawx"
+    },
+    {
+      "book": "WoR",
+      "number": 88,
+      "add": "szeth-restored"
+    },
+    {
+      "book": "OB",
+      "number": 4,
+      "add": "dalinar-navani-marriage"
+    },
+    {
+      "book": "OB",
+      "number": 32,
+      "remove": "dalinar-navani-marriage"
+    },
+    {
+      "book": "OB",
+      "number": 121,
+      "add": "moash-kills-jezrien"
+    },
+    {
+      "book": "TWoK",
+      "number": 13,
+      "add": "chasmfiend-hunt"
+    },
+    {
+      "book": "TWoK",
+      "number": 12,
+      "remove": "chasmfiend-hunt"
+    }
+  ],
+  "eventsWithoutChapterAnchor": [
+    {
+      "id": "shattering",
+      "book": null,
+      "chapter": null
+    },
+    {
+      "id": "honor-cultivation-arrive",
+      "book": null,
+      "chapter": null
+    },
+    {
+      "id": "human-migration",
+      "book": "OB",
+      "chapter": "Dawnchant revelation"
+    },
+    {
+      "id": "first-desolation",
+      "book": null,
+      "chapter": null
+    },
+    {
+      "id": "oathpact-formed",
+      "book": "TWoK",
+      "chapter": "Prelude context"
+    },
+    {
+      "id": "radiants-founded",
+      "book": "OB",
+      "chapter": "Nohadon/vision context"
+    },
+    {
+      "id": "false-desolation",
+      "book": "OB",
+      "chapter": "Gemstone archive epigraphs"
+    },
+    {
+      "id": "bam-imprisoned",
+      "book": "OB",
+      "chapter": "Gemstone archive epigraphs"
+    },
+    {
+      "id": "recreance",
+      "book": "TWoK/OB",
+      "chapter": "Feverstone vision; Dawnchant/gem archive"
+    },
+    {
+      "id": "hierocracy",
+      "book": "TWoK/OB",
+      "chapter": "Historical references"
+    },
+    {
+      "id": "alethkar-unification",
+      "book": "OB",
+      "chapter": "Dalinar flashback sequence"
+    },
+    {
+      "id": "dalinar-evi-marriage",
+      "book": "OB",
+      "chapter": "Early/mid flashbacks"
+    },
+    {
+      "id": "dalinar-cultivation",
+      "book": "OB",
+      "chapter": "Late flashback sequence"
+    },
+    {
+      "id": "listeners-discovered",
+      "book": "OB",
+      "chapter": "Listener/Dalinar flashbacks"
+    },
+    {
+      "id": "ishikk-worldhoppers",
+      "book": "TWoK",
+      "chapter": "Interlude I-1"
+    },
+    {
+      "id": "rysn-shinovar",
+      "book": "TWoK",
+      "chapter": "Rysn interlude"
+    },
+    {
+      "id": "axies-cusicesh",
+      "book": "TWoK",
+      "chapter": "Axies interlude"
+    },
+    {
+      "id": "baxil-ash",
+      "book": "TWoK",
+      "chapter": "Baxil interlude"
+    },
+    {
+      "id": "dalinar-trades-oathbringer",
+      "book": "TWoK",
+      "chapter": "Final chapters"
+    },
+    {
+      "id": "taravangian-reveal",
+      "book": "TWoK",
+      "chapter": "Interlude/final sequence"
+    },
+    {
+      "id": "eshonai-stormform",
+      "book": "WoR",
+      "chapter": "Listener interludes"
+    },
+    {
+      "id": "rysn-reshi",
+      "book": "WoR",
+      "chapter": "Rysn interlude"
+    },
+    {
+      "id": "szeth-restored",
+      "book": "WoR",
+      "chapter": "Final interlude"
+    },
+    {
+      "id": "sadeas-killed",
+      "book": "WoR",
+      "chapter": "Final chapters"
+    },
+    {
+      "id": "wit-girl-who-looked-up",
+      "book": "OB",
+      "chapter": "Kholinar chapters"
+    },
+    {
+      "id": "jasnah-crowned",
+      "book": "OB",
+      "chapter": "Final chapters"
+    },
+    {
+      "id": "shallan-adolin-wedding",
+      "book": "OB",
+      "chapter": "Final chapters"
+    },
+    {
+      "id": "moash-kills-jezrien",
+      "book": "OB",
+      "chapter": "Final interlude"
+    }
+  ],
+  "spoilerRisks": [
+    {
+      "severity": "high",
+      "field": "Entity summaries, aliases, roles, memberships, locations, related, owners, users",
+      "issue": "These are cumulative final-scope snapshots. Entity appearance in an earlier book does not authorize showing its final fields at an earlier spoiler boundary. Gate the whole snapshot by latest book or use explicit fact-level reveal metadata."
+    },
+    {
+      "severity": "high",
+      "field": "graphEdges.from and graphEdges.books",
+      "issue": "Many inferred memberships have from=-10000 and a broad books list. These are graph lifetimes or generated defaults, not reliable first-reveal metadata. Do not use from as a spoiler reveal timestamp."
+    },
+    {
+      "severity": "medium",
+      "field": "chapters.arcSummary",
+      "issue": "Arc summaries repeat the end of a multi-chapter arc in earlier chapter entries. Safe at completed-book boundaries; unsafe for precise chapter-progress spoiler protection."
+    },
+    {
+      "severity": "medium",
+      "field": "chapters.anchors",
+      "issue": "Anchors are broad arc associations, sometimes repeated over many chapters. Show these as related arc anchors unless the exact chapter association has been verified."
+    },
+    {
+      "severity": "medium",
+      "field": "sources",
+      "issue": "Current Coppermind pages contain Wind and Truth and later spoilers. Label external sources as potentially containing spoilers beyond the selected boundary."
+    }
+  ],
+  "chronologyWarnings": [
+    {
+      "ids": [
+        "gavilar-assassinated",
+        "wor-prologue",
+        "ob-prologue",
+        "row-prologue-navani"
+      ],
+      "issue": "All describe the same assassination night, but sort values are -1,100,300,600. sort mixes presentation order with in-world chronology. A single chronological axis must group them in1167 and retain reveal/source order separately."
+    },
+    {
+      "ids": [
+        "eshonai-final-gift"
+      ],
+      "issue": "The event is revealed in ROW chapter117 but occurs after Narak near the ending of WoR. sort832 is reading position, not when it happened."
+    },
+    {
+      "ids": [
+        "dawnchant-revealed"
+      ],
+      "issue": "sort342 places an event tied to OB chapters111–113 among early/middle-book events; research and revelation are conflated. Split research from final discovery, or keep the ordering explicitly approximate."
+    },
+    {
+      "ids": [
+        "rysn-reshi",
+        "lift-saves-gawx"
+      ],
+      "issue": "WoR I-3 occurs before I-9 in reading order, but recovered sort152 places it after145. This may not establish an in-world contradiction, but it shows sort is not a verified reading sequence."
+    },
+    {
+      "ids": [
+        "dalinar-cultivation"
+      ],
+      "issue": "Recovered dateLabel says soon after the Rift. A precise interval is not asserted here; source verification should precede using this as a dated chronological claim."
+    },
+    {
+      "ids": [
+        "shattering",
+        "honor-cultivation-arrive",
+        "ashyn-catastrophe",
+        "first-desolation",
+        "recreance"
+      ],
+      "issue": "Ancient sort values are illustrative ordering coordinates, not canonical year values. Display relative labels with uncertainty; do not label these numbers as dates or calculate durations from them."
+    }
+  ],
+  "reconciliation": {
+    "characters": {
+      "originalCount": 181,
+      "extendedCount": 202,
+      "addedIds": [
+        "axindweth",
+        "beryl",
+        "blended",
+        "caelinora",
+        "cord",
+        "design",
+        "dieno",
+        "el",
+        "godeke",
+        "lezian",
+        "nikli",
+        "noril",
+        "raboniel",
+        "ral-na",
+        "rua",
+        "sekeir",
+        "sibling",
+        "talik",
+        "testament",
+        "tumi",
+        "zu"
+      ],
+      "removedIds": []
+    },
+    "factions": {
+      "originalCount": 79,
+      "extendedCount": 90,
+      "addedIds": [
+        "horneaters",
+        "kaladin-clinic",
+        "lasting-integrity-envoy",
+        "new-listeners",
+        "reshi-isles",
+        "sja-anat-spren",
+        "unseen-court",
+        "urithiru-civilians",
+        "urithiru-occupiers",
+        "urithiru-resistance",
+        "wandersail-expedition"
+      ],
+      "removedIds": []
+    },
+    "locations": {
+      "originalCount": 64,
+      "extendedCount": 67,
+      "addedIds": [
+        "lasting-integrity",
+        "nameless",
+        "urithiru-pillar"
+      ],
+      "removedIds": []
+    },
+    "magic": {
+      "originalCount": 57,
+      "extendedCount": 71,
+      "addedIds": [
+        "anti-light",
+        "anti-stormlight",
+        "anti-voidlight",
+        "dawnshard-command",
+        "enlightened-spren",
+        "fabrial-metals",
+        "lifelight",
+        "living-shardplate",
+        "pure-tones",
+        "raysium",
+        "sibling-fabrials",
+        "suppression-fabrial",
+        "towerlight",
+        "warlight"
+      ],
+      "removedIds": []
+    },
+    "items": {
+      "originalCount": 42,
+      "extendedCount": 52,
+      "addedIds": [
+        "akinah-soulcasters",
+        "anti-stormlight-dagger",
+        "anti-voidlight-dagger",
+        "cord-plate",
+        "dawnshard-mural",
+        "kaladin-flight-glove",
+        "radiant-suppressor",
+        "rhythm-of-war-notebook",
+        "rysn-mobility-fabrial",
+        "wandersail-ship"
+      ],
+      "removedIds": []
+    },
+    "events": {
+      "originalCount": 90,
+      "extendedCount": 129,
+      "addedIds": [
+        "adolin-trial-row",
+        "anti-voidlight-discovered",
+        "dawnshard-fabrial-mobility",
+        "el-kills-lezian",
+        "eshonai-final-gift",
+        "first-dreams-returns",
+        "hearthstone-rescue-row",
+        "huio-third-ideal",
+        "ialai-dies-row",
+        "ishar-bondsmith-experiments",
+        "kaladin-clinic-row",
+        "kaladin-fourth-ideal",
+        "kaladin-relieved-row",
+        "kaladin-resistance-row",
+        "kalak-revealed-restares",
+        "lasting-integrity-mission-departs",
+        "lopen-third-ideal",
+        "maya-we-chose",
+        "navani-bonds-sibling",
+        "navani-raboniel-collaboration",
+        "nikli-revealed",
+        "odium-dalinar-terms",
+        "raboniel-daughter-permadeath",
+        "raboniel-plans-urithiru",
+        "rlain-bonds-tumi",
+        "row-epilogue-todium-wit",
+        "row-prologue-navani",
+        "rysn-akinah-mission",
+        "rysn-bonds-dawnshard",
+        "rysn-sleepless-compact",
+        "shallan-radiant-ialai",
+        "shallan-testament-reveal",
+        "taravangian-ascends-odium",
+        "teft-phendorana-die",
+        "urithiru-liberated",
+        "urithiru-occupied-row",
+        "venli-finds-listeners",
+        "wandersail-reaches-akinah",
+        "warlight-created-row"
+      ],
+      "removedIds": []
+    }
+  },
+  "sourceRetrievalNotes": "Coppermind direct open requests returned403 in this session; search-indexed chapter-index and summary pages supplied titles, reading positions and selected event confirmations. No narrative text was copied. Chapter labels are bibliographic metadata; interlude numbers/positions are verified by indexed order."
+}
